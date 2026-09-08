@@ -27,7 +27,7 @@ function createImage(item) {
   const parts = item.uniqueName.split("/").filter(Boolean);
   const itemName = parts[parts.length - 1];
 
-  img.dataset.src = BASE_URL + item.textureLocation;
+  img.dataset.src = PublicExportURL + item.textureLocation;
   img.alt = itemName;
 
   imageObserver.observe(img);
