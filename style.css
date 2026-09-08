@@ -1,40 +1,18 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #3c3c3c;
+    color: #fefefe;
+}
+
+img {
+    max-width: 100%
+}
+
+/* Styling */
 #container {
-  display: block;
-}
-
-.manifest-group {
-  display: block;
-}
-
-.manifest-group > details > summary {
-  cursor: pointer;
-}
-
-.manifest-group h2 {
-  display: inline;
-  margin: 0;
-}
-
-.manifest-group-content {
-  display: block;
-}
-
-.manifest-group-content > ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-}
-
-.manifest-group-content > ul > li {
-  display: block;
-}
-
-.manifest-group-content img {
-  width: 250px;
-  height: auto;
-  object-fit: contain;
+    display: block;
+    background: #000000;
 }
