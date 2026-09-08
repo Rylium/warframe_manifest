@@ -1,34 +1,52 @@
 const PublicExportURL = "https://content.warframe.com/PublicExport";
 const container = document.getElementById("container");
 
-// IntersectionObserver définit 'src' uniquement lorsque l'image arrive sur l'écran
-const imageObserver = new IntersectionObserver((entries, observer) => {
 
-  entries.forEach((entry) => {
+// Lazy loading des images
+const imageObserver = new IntersectionObserver(
+  (entries, observer) => {
 
-    if (!entry.isIntersecting) {
-      return;
+    for (const entry of entries) {
+
+      if (!entry.isIntersecting) {
+        continue;
+      }
+
+      const img = entry.target;
+      const src = img.dataset.src;
+
+      if (src) {
+        img.src = src;
+        delete img.dataset.src;
+      }
+
+      observer.unobserve(img);
     }
+  },
+  {
+    // Commence à charger les images avant qu'elles
+    // n'entrent dans la fenêtre.
+    rootMargin: "300px 0px"
+  }
+);
 
-    const img = entry.target;
 
-    img.src = img.dataset.src;
-
-    observer.unobserve(img);
-  });
-
-});
-
-// Crée une image à partir d'un élément du Manifest
+// Image
 function createImage(item) {
 
   const img = document.createElement("img");
 
-  const parts = item.uniqueName.split("/").filter(Boolean);
-  const itemName = parts[parts.length - 1];
-
   img.dataset.src = PublicExportURL + item.textureLocation;
-  img.alt = itemName;
+  img.alt = item.name;
+
+  // Décodage asynchrone
+  img.decoding = "async";
+
+  // Les images du manifest ne sont pas prioritaires.
+  img.fetchPriority = "low";
+
+  // Lazy-loading natif en complément de l'Observer.
+  img.loading = "lazy";
 
   imageObserver.observe(img);
 
@@ -36,140 +54,242 @@ function createImage(item) {
 }
 
 
-// Crée un groupe
-function createGroup(name) {
-  // Conteneur général du groupe
+// Construction de l'arbre en mémoire
+function buildTree(manifest) {
+
+  const root = new Map();
+
+  for (const item of manifest) {
+
+    const parts = item.uniqueName
+      .split("/")
+      .filter(Boolean);
+
+    /*
+      Exemple :
+      /Lotus/Characters/Tenno/Accessory/Scarves/GrnBannerScarf/GrnBannerScarfItem
+
+      parts :
+      [ "Lotus", "Characters", "Tenno", "Accessory", "Scarves", "GrnBannerScarf", "GrnBannerScarfItem" ]
+    */
+
+    if (parts.length < 3) {
+      continue;
+    }
+
+    let currentMap = root; // Retire "Lotus"
+    const itemName = parts[parts.length - 1]; // L'item = dernier élément de la liste
+
+
+    // Construction des groupes
+    for (let i = 1; i < parts.length - 1; i++) {
+
+      const groupName = parts[i];
+
+      let group = currentMap.get(groupName);
+
+      if (!group) {
+
+        group = {
+          name: groupName,
+          children: new Map(),
+          items: []
+        };
+
+        currentMap.set(groupName, group);
+      }
+
+      currentMap = group.children;
+
+
+      // Dernier groupe
+      if (i === parts.length - 2) {
+
+        group.items.push({
+          name: itemName,
+          textureLocation: item.textureLocation
+        });
+      }
+    }
+  }
+
+  return root;
+}
+
+
+// Création d'un groupe
+function createGroup(group) {
+
   const wrapper = document.createElement("div");
+  wrapper.className = "manifest-group";
 
-  // Titre du groupe
+  const details = document.createElement("details");
+
+  const summary = document.createElement("summary");
+
   const title = document.createElement("h2");
-  title.textContent = name;
+  title.textContent = group.name;
 
-  // Conteneur du contenu du groupe
+  summary.appendChild(title);
+  details.appendChild(summary);
+
+
   const content = document.createElement("div");
 
-  // Permet d'identifier le groupe
-  content.dataset.parent = name;
+  content.className = "manifest-group-content";
+  content.dataset.parent = group.name;
 
-  wrapper.appendChild(title);
-  wrapper.appendChild(content);
-
-  return {
-    wrapper,
-    content
-  };
-}
+  details.appendChild(content);
+  wrapper.appendChild(details);
 
 
-// Recherche un groupe enfant existant
-function findGroup(parent, name) {
-  return Array.from(parent.children).find((element) => {
-    return (
-      element.dataset &&
-      element.dataset.parent === name
-    );
+  // Rendu différé
+  let rendered = false;
+
+  details.addEventListener("toggle", () => {
+
+    if (!details.open || rendered) {
+      return;
+    }
+
+    rendered = true;
+
+    renderGroupContent(group, content);
+
   });
+
+
+  return wrapper;
 }
 
 
-// Chargement du Manifest
-fetch("./ExportManifest.json")
-  .then((response) => {
+// Rendu du contenu d'un groupe
+function renderGroupContent(group, container) {
+
+  const fragment = document.createDocumentFragment();
+
+
+  // Sous-groupes
+  for (const childGroup of group.children.values()) {
+
+    fragment.appendChild(
+      createGroup(childGroup)
+    );
+  }
+
+
+  // Items
+  if (group.items.length > 0) {
+
+    const list = document.createElement("ul");
+
+    for (const item of group.items) {
+
+      const listItem = document.createElement("li");
+
+      const img = createImage(item);
+
+      listItem.appendChild(img);
+      list.appendChild(listItem);
+    }
+
+    fragment.appendChild(list);
+  }
+
+
+  // Une seule opération DOM
+  container.appendChild(fragment);
+}
+
+
+// Rendu initial
+function renderRoot(root) {
+
+  const fragment = document.createDocumentFragment();
+
+  for (const group of root.values()) {
+
+    fragment.appendChild(
+      createGroup(group)
+    );
+  }
+
+  container.appendChild(fragment);
+}
+
+
+// Chargement
+async function loadManifest() {
+
+  try {
+
+    // Fetch + parsing JSON
+    const fetchStart = performance.now();
+
+    const response = await fetch("./ExportManifest.json");
 
     if (!response.ok) {
+
       throw new Error(
         `Impossible de charger ExportManifest.json (${response.status})`
       );
     }
 
-    return response.json();
-  })
+    const data = await response.json();
 
-  .then((data) => {
+    const fetchEnd = performance.now();
 
-    console.log("Manifest chargé :", data);
+    console.log(
+      `Manifest chargé en ${(fetchEnd - fetchStart).toFixed(2)} ms`
+    );
 
-    data.Manifest.forEach((item) => {
-
-      // Découpe du uniqueName
-      const parts = item.uniqueName
-        .split("/")
-        .filter(Boolean);
+    console.log(
+      `Nombre d'entrées : ${data.Manifest.length}`
+    );
 
 
-      /*
-        Exemple :
-        "/Lotus/Characters/Tenno/Accessory/Scarves/GrnBannerScarf/GrnBannerScarfItem"
-        devient :
-        [ "Lotus", "Characters", "Tenno", "Accessory", "Scarves", "GrnBannerScarf", "GrnBannerScarfItem" ]
-      */
+    // Construction de l'arbre
+    const treeStart = performance.now();
+
+    const tree = buildTree(data.Manifest);
+
+    const treeEnd = performance.now();
+
+    console.log(
+      `Arbre construit en ${(treeEnd - treeStart).toFixed(2)} ms`
+    );
 
 
-      // Vérifications
-      if (parts.length < 3) {
-        console.warn(
-          "uniqueName trop court :",
-          item.uniqueName
-        );
+    // Rendu
+    const renderStart = performance.now();
 
-        return;
-      }
+    renderRoot(tree);
 
-      // Suppression de "Lotus"
-      const path = parts.slice(1);
-      // path: [ "Characters", "Tenno", "Accessory", "Scarves", "GrnBannerScarf", "GrnBannerScarfItem" ]
+    const renderEnd = performance.now();
 
-      // Le dernier élément est le nom de l'item: "GrnBannerScarfItem"
-      const itemName = path.pop();
+    console.log(
+      `Rendu initial en ${(renderEnd - renderStart).toFixed(2)} ms`
+    );
 
-      // Construction de l'arborescence
-      let currentContainer = container;
-
-      path.forEach((groupName) => {
-
-        // Cherche si ce groupe existe déjà
-        let groupContent = findGroup(
-          currentContainer,
-          groupName
-        );
+    console.log("Manifest prêt.");
 
 
-        // Si le groupe n'existe pas, on le crée
-        if (!groupContent) {
-          const group = createGroup(groupName);
+    /*
+      data.Manifest n'est désormais plus nécessaire.
 
-          currentContainer.appendChild(group.wrapper);
-          groupContent = group.content;
-        }
+      On laisse simplement data sortir de portée avec la fin
+      de cette fonction afin que le garbage collector puisse
+      récupérer la mémoire lorsqu'il le souhaite.
+    */
 
-        currentContainer = groupContent; // Descend dans le groupe
-      });
+  } catch (error) {
 
-
-      // Ajout de l'image
-      let list = currentContainer.querySelector(":scope > ul");
-
-      if (!list) {
-        list = document.createElement("ul");
-        currentContainer.appendChild(list);
-      }
-
-
-      const listItem = document.createElement("li");
-      const img = createImage(item);
-
-      // On utilise explicitement le dernier élément comme ' alt="" '
-      img.alt = itemName;
-
-      listItem.appendChild(img);
-      list.appendChild(listItem);
-    });
-
-  })
-
-  .catch((error) => {
     console.error(
       "Erreur lors du chargement du JSON :",
       error
     );
-  });
+  }
+}
+
+// Démarrage
+loadManifest();
