@@ -1,21 +1,40 @@
 #container {
-    display: block;
+  display: block;
 }
 
-#container img {
-    width: 250px;
-    height: auto;
-    object-fit: contain;
+.manifest-group {
+  display: block;
 }
 
-#container ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
+.manifest-group > details > summary {
+  cursor: pointer;
 }
 
-#container li {
-    display: block;
+.manifest-group h2 {
+  display: inline;
+  margin: 0;
+}
+
+.manifest-group-content {
+  display: block;
+}
+
+.manifest-group-content > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.manifest-group-content > ul > li {
+  display: block;
+}
+
+.manifest-group-content img {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
 }
