@@ -1,8 +1,21 @@
 #container {
     display: block;
 }
+
 #container img {
-    width: 128px;
+    width: 250px;
     height: auto;
     object-fit: contain;
+}
+
+#container ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#container li {
+    display: block;
 }

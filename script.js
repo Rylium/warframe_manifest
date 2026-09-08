@@ -1,17 +1,36 @@
 const PublicExportURL = "https://content.warframe.com/PublicExport";
 const container = document.getElementById("container");
 
+// IntersectionObserver définit 'src' uniquement lorsque l'image arrive sur l'écran
+const imageObserver = new IntersectionObserver((entries, observer) => {
+
+  entries.forEach((entry) => {
+
+    if (!entry.isIntersecting) {
+      return;
+    }
+
+    const img = entry.target;
+
+    img.src = img.dataset.src;
+
+    observer.unobserve(img);
+  });
+
+});
+
 // Crée une image à partir d'un élément du Manifest
 function createImage(item) {
+
   const img = document.createElement("img");
 
-  img.src = PublicExportURL + item.textureLocation;
-
-  // Le dernier élément de uniqueName est le nom de l'item
   const parts = item.uniqueName.split("/").filter(Boolean);
   const itemName = parts[parts.length - 1];
 
+  img.dataset.src = BASE_URL + item.textureLocation;
   img.alt = itemName;
+
+  imageObserver.observe(img);
 
   return img;
 }
