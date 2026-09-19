@@ -1,0 +1,4 @@
+Nomenclator validation
+======================
+
+OK: Both nomenclators contain exactly the same keys.
