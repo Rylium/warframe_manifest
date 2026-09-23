@@ -226,7 +226,7 @@ async function loadManifest() {
     // Fetch + parsing JSON
     const fetchStart = performance.now();
 
-    const response = await fetch("./ExportManifest.json");
+    const response = await fetch("./data/ExportManifest.json");
 
     if (!response.ok) {
 
