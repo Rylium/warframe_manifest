@@ -1,185 +1,295 @@
 const PublicExportURL = "https://content.warframe.com/PublicExport";
 const container = document.getElementById("container");
 
-document.addEventListener("DOMContentLoaded", async () => {
-    const DATA_URL = "data/ExportManifest.json";
 
-    if (!container) {
-        console.error("L'élément #container est introuvable.");
-        return;
+// Lazy loading des images
+const imageObserver = new IntersectionObserver(
+  (entries, observer) => {
+
+    for (const entry of entries) {
+
+      if (!entry.isIntersecting) {
+        continue;
+      }
+
+      const img = entry.target;
+      const src = img.dataset.src;
+
+      if (src) {
+        img.src = src;
+        delete img.dataset.src;
+      }
+
+      observer.unobserve(img);
+    }
+  },
+  {
+    // Commence à charger les images avant qu'elles
+    // n'entrent dans la fenêtre.
+    rootMargin: "300px 0px"
+  }
+);
+
+
+// Image
+function createImage(item) {
+
+  const img = document.createElement("img");
+
+  img.dataset.src = PublicExportURL + item.textureLocation;
+  img.alt = item.name;
+
+  // Décodage asynchrone
+  img.decoding = "async";
+
+  // Les images du manifest ne sont pas prioritaires.
+  img.fetchPriority = "low";
+
+  // Lazy-loading natif en complément de l'Observer.
+  img.loading = "lazy";
+
+  imageObserver.observe(img);
+
+  return img;
+}
+
+
+// Construction de l'arbre en mémoire
+function buildTree(manifest) {
+
+  const root = new Map();
+
+  for (const item of manifest) {
+
+    const parts = item.uniqueName
+      .split("/")
+      .filter(Boolean);
+
+    /*
+      Exemple :
+      /Lotus/Characters/Tenno/Accessory/Scarves/GrnBannerScarf/GrnBannerScarfItem
+
+      parts :
+      [ "Lotus", "Characters", "Tenno", "Accessory", "Scarves", "GrnBannerScarf", "GrnBannerScarfItem" ]
+    */
+
+    if (parts.length < 3) {
+      continue;
     }
 
-    try {
-        const response = await fetch(DATA_URL);
-
-        if (!response.ok) {
-            throw new Error(
-                `Impossible de charger ${DATA_URL} (${response.status} ${response.statusText})`
-            );
-        }
-
-        const data = await response.json();
-
-        if (!Array.isArray(data.Manifest)) {
-            throw new Error("La propriété Manifest est absente ou invalide.");
-        }
-
-        const root = createNode("");
-
-        for (const item of data.Manifest) {
-            if (!item || !item.uniqueName || !item.textureLocation) {
-                continue;
-            }
-
-            const parts = item.uniqueName
-                .split("/")
-                .filter(Boolean);
-
-            // "Lotus" est le dossier racine. Il ne compte pas comme famille.
-            if (parts[0] === "Lotus") {
-                parts.shift();
-            }
-
-            if (parts.length < 1) {
-                continue;
-            }
-
-            insertItem(root, parts, item);
-        }
-
-        container.innerHTML = "";
-        renderNode(root, container);
-
-    } catch (error) {
-        console.error(
-            "Erreur lors du chargement du Manifest :",
-            error
-        );
-
-        container.textContent =
-            "Impossible de charger les données du manifest.";
-    }
+    let currentMap = root; // Retire "Lotus"
+    const itemName = parts[parts.length - 1]; // L'item = dernier élément de la liste
 
 
-    /* === Création d'un nœud */
+    // Construction des groupes
+    for (let i = 1; i < parts.length - 1; i++) {
 
-    function createNode(name) {
-        return {
-            name,
-            children: new Map(),
-            items: []
+      const groupName = parts[i];
+
+      let group = currentMap.get(groupName);
+
+      if (!group) {
+
+        group = {
+          name: groupName,
+          children: new Map(),
+          items: []
         };
+
+        currentMap.set(groupName, group);
+      }
+
+      currentMap = group.children;
+
+
+      // Dernier groupe
+      if (i === parts.length - 2) {
+
+        group.items.push({
+          name: itemName,
+          textureLocation: item.textureLocation
+        });
+      }
+    }
+  }
+
+  return root;
+}
+
+
+// Création d'un groupe
+function createGroup(group) {
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "manifest-group";
+
+  const details = document.createElement("details");
+
+  const summary = document.createElement("summary");
+
+  const title = document.createElement("h2");
+  title.textContent = group.name;
+
+  summary.appendChild(title);
+  details.appendChild(summary);
+
+
+  const content = document.createElement("div");
+
+  content.className = "manifest-group-content";
+  content.dataset.parent = group.name;
+
+  details.appendChild(content);
+  wrapper.appendChild(details);
+
+
+  // Rendu différé
+  let rendered = false;
+
+  details.addEventListener("toggle", () => {
+
+    if (!details.open || rendered) {
+      return;
     }
 
+    rendered = true;
 
-    /* === Construction de l'arbre */
+    renderGroupContent(group, content);
 
-    function insertItem(node, parts, item) {
+  });
 
-        /*
-         * Le dernier segment est toujours l'élément.
-         *
-         * Exemple :
-         *
-         * Upgrades
-         * └── Skins
-         *     └── Duelist
-         *         └── DuelistSkin
-         *
-         * Familles :
-         *   Upgrades
-         *   Skins
-         *   Duelist
-         *
-         * Élément :
-         *   DuelistSkin
-         */
 
-        if (parts.length === 1) {
-            node.items.push(item);
-            return;
-        }
+  return wrapper;
+}
 
-        const familyName = parts.shift();
 
-        if (!node.children.has(familyName)) {
-            node.children.set(
-                familyName,
-                createNode(familyName)
-            );
-        }
+// Rendu du contenu d'un groupe
+function renderGroupContent(group, container) {
 
-        insertItem(
-            node.children.get(familyName),
-            parts,
-            item
-        );
+  const fragment = document.createDocumentFragment();
+
+
+  // Sous-groupes
+  for (const childGroup of group.children.values()) {
+
+    fragment.appendChild(
+      createGroup(childGroup)
+    );
+  }
+
+
+  // Items
+  if (group.items.length > 0) {
+
+    const list = document.createElement("ul");
+
+    for (const item of group.items) {
+
+      const listItem = document.createElement("li");
+
+      const img = createImage(item);
+
+      listItem.appendChild(img);
+      list.appendChild(listItem);
     }
 
-
-    /* === Rendu des familles */
-
-    function renderNode(node, parentElement) {
-
-        /* Éléments appartenant directement à cette famille. */
-        for (const item of node.items) {
-            parentElement.appendChild(
-                createItemElement(item)
-            );
-        }
+    fragment.appendChild(list);
+  }
 
 
-        /* Sous-familles. */
-        for (const child of node.children.values()) {
-
-            const family = document.createElement("div");
-            family.className = "manifest-family";
+  // Une seule opération DOM
+  container.appendChild(fragment);
+}
 
 
-            /* Nom de la famille */
-            const title = document.createElement("div");
+// Rendu initial
+function renderRoot(root) {
 
-            title.className = "manifest-family-title";
-            title.textContent = child.name;
+  const fragment = document.createDocumentFragment();
 
-            family.appendChild(title);
+  for (const group of root.values()) {
 
+    fragment.appendChild(
+      createGroup(group)
+    );
+  }
 
-            /* Contenu de la famille */
-            const content = document.createElement("div");
-
-            content.className = "manifest-family-content";
-
-            family.appendChild(content);
-
-
-            /* Ajout au container */
-            parentElement.appendChild(family);
+  container.appendChild(fragment);
+}
 
 
-            /* Rendu récursif */
-            renderNode(child, content);
-        }
+// Chargement
+async function loadManifest() {
+
+  try {
+
+    // Fetch + parsing JSON
+    const fetchStart = performance.now();
+
+    const response = await fetch("./ExportManifest.json");
+
+    if (!response.ok) {
+
+      throw new Error(
+        `Impossible de charger ExportManifest.json (${response.status})`
+      );
     }
 
+    const data = await response.json();
 
-    /* === Création d'un élément */
+    const fetchEnd = performance.now();
 
-    function createItemElement(item) {
+    console.log(
+      `Manifest chargé en ${(fetchEnd - fetchStart).toFixed(2)} ms`
+    );
 
-        const wrapper = document.createElement("div");
-        wrapper.className = "manifest-item";
-
-
-        const image = document.createElement("img");
-
-        image.src = PublicExportURL + item.textureLocation;
-        image.alt = item.uniqueName;
-        image.loading = "lazy";
+    console.log(
+      `Nombre d'entrées : ${data.Manifest.length}`
+    );
 
 
-        wrapper.appendChild(image);
+    // Construction de l'arbre
+    const treeStart = performance.now();
 
-        return wrapper;
-    }
-});
+    const tree = buildTree(data.Manifest);
+
+    const treeEnd = performance.now();
+
+    console.log(
+      `Arbre construit en ${(treeEnd - treeStart).toFixed(2)} ms`
+    );
+
+
+    // Rendu
+    const renderStart = performance.now();
+
+    renderRoot(tree);
+
+    const renderEnd = performance.now();
+
+    console.log(
+      `Rendu initial en ${(renderEnd - renderStart).toFixed(2)} ms`
+    );
+
+    console.log("Manifest prêt.");
+
+
+    /*
+      data.Manifest n'est désormais plus nécessaire.
+
+      On laisse simplement data sortir de portée avec la fin
+      de cette fonction afin que le garbage collector puisse
+      récupérer la mémoire lorsqu'il le souhaite.
+    */
+
+  } catch (error) {
+
+    console.error(
+      "Erreur lors du chargement du JSON :",
+      error
+    );
+  }
+}
+
+// Démarrage
+loadManifest();
