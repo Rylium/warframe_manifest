@@ -10,7 +10,7 @@
         {
             "uniqueName": "/Lotus/Types/Keys/1999Quest/1999QuestGoodEndKeyChain",
             "name": "Épisode final",
-            "description": "Une chance de réécrire l’histoire et d’éviter un désastre.",
+            "description": "Une chance de réécrire l'histoire et d'éviter un désastre.",
             "parentName": "",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -279,6 +279,27 @@
             "uniqueName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain",
             "name": "L'Ancienne Paix",
             "description": "La piste d'Albrecht Entrati mène au-delà du Système Origine. Seule une exploration du passé permettra de tracer le chemin à suivre, mais les secrets enfouis peuvent être mortels.",
+            "parentName": "",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainA",
+            "name": "Lua",
+            "description": "Trouvez le Lotus dans les Ténèbres Réfractaires et cherchez-la au cœur de ses souvenirs.",
+            "parentName": "",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainB",
+            "name": "Avatar",
+            "description": "L'Avatar s'est réveillé. Praghasa est de retour. Déployez-vous à la surface d'Éris… du carburant est nécessaire.",
+            "parentName": "",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainC",
+            "name": "Éris Mortem",
+            "description": "Praghasa festoie.",
             "parentName": "",
             "codexSecret": false
         },

@@ -1521,12 +1521,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Priest/Abilities/PriestRavageAbility",
                     "abilityName": "Encensoir",
-                    "description": "Concentrez l'Énergie de Harrow dans son Encensoir pour générer un avantage. Une fois fini, éliminez les ennemis afin d'octroyer aux alliés situés à proximité des décharges d'Énergie. Plus l'Énergie est concentrée, plus grande sera la récompense à chaque élimination. Les tirs à la tête produisent davantage d'énergie."
+                    "description": "Concentrez l'Énergie de Harrow dans son Encensoir pour générer un buff. Une fois fini, éliminez les ennemis afin d'octroyer aux alliés à proximité des décharges d'Énergie. Plus l'Énergie est concentrée, plus grande sera la récompense à chaque élimination. Les éliminations via Points Faibles produisent davantage d'Énergie."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Priest/Abilities/PriestPactAbility",
                     "abilityName": "Pacte",
-                    "description": "Protégez les alliés grâce à une entité énergétique qui absorbe tous les dégâts puis les convertit en un bonus de Chances de Critique pour tous les bénéficiaires du Pacte. Les tirs à la tête sont encore plus avantagés."
+                    "description": "Protégez les alliés grâce à une entité énergétique qui absorbe tous les dégâts puis les convertit en un bonus de Chances de Critique pour tous les bénéficiaires du Pacte. Les coups aux Points Faibles sont encore plus avantagés."
                 }
             ],
             "productCategory": "Suits"
@@ -1559,12 +1559,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Priest/Abilities/PriestRavageAbility",
                     "abilityName": "Encensoir",
-                    "description": "Concentrez l'Énergie de Harrow dans son Encensoir pour générer un avantage. Une fois fini, éliminez les ennemis afin d'octroyer aux alliés situés à proximité des décharges d'Énergie. Plus l'Énergie est concentrée, plus grande sera la récompense à chaque élimination. Les tirs à la tête produisent davantage d'énergie."
+                    "description": "Concentrez l'Énergie de Harrow dans son Encensoir pour générer un buff. Une fois fini, éliminez les ennemis afin d'octroyer aux alliés à proximité des décharges d'Énergie. Plus l'Énergie est concentrée, plus grande sera la récompense à chaque élimination. Les éliminations via Points Faibles produisent davantage d'Énergie."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Priest/Abilities/PriestPactAbility",
                     "abilityName": "Pacte",
-                    "description": "Protégez les alliés grâce à une entité énergétique qui absorbe tous les dégâts puis les convertit en un bonus de Chances de Critique pour tous les bénéficiaires du Pacte. Les tirs à la tête sont encore plus avantagés."
+                    "description": "Protégez les alliés grâce à une entité énergétique qui absorbe tous les dégâts puis les convertit en un bonus de Chances de Critique pour tous les bénéficiaires du Pacte. Les coups aux Points Faibles sont encore plus avantagés."
                 }
             ],
             "productCategory": "Suits"
@@ -1575,8 +1575,8 @@
             "parentName": "/Lotus/Powersuits/Pirate/PirateBaseSuit",
             "description": "Hydroid invoque la puissance des profondeurs de l'océan. Il peut contrôler les foules avec ses attaques. Ses ennemis connaîtront une mort aquatique.",
             "health": 270,
-            "shield": 365,
-            "armor": 240,
+            "shield": 140,
+            "armor": 465,
             "stamina": 3,
             "power": 140,
             "codexSecret": false,
@@ -1597,7 +1597,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pirate/Abilities/PirateArmourAbility",
                     "abilityName": "Flibuste",
-                    "description": "Pillez l’armure des ennemis proches et augmentez les Dégâts <DT_CORROSIVE_COLOR>Corrosifs de vos Pouvoirs et de vos armes. Les ennemis affectés par un Effet de Statut <DT_CORROSIVE_COLOR>Corrosif offrent une augmentation plus importante."
+                    "description": "Pillez l'armure des ennemis proches et augmentez les Dégâts <DT_CORROSIVE_COLOR>Corrosifs de vos Pouvoirs et de vos armes. Les ennemis affectés par un Effet de Statut <DT_CORROSIVE_COLOR>Corrosif offrent une augmentation plus importante."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pirate/Abilities/KrakenAbility",
@@ -1613,8 +1613,8 @@
             "parentName": "/Lotus/Powersuits/Pirate/PirateBaseSuit",
             "description": "Maîtrisez la furie de l'océan avec ce souverain d'or et d'argent. Hydroid Prime possède des polarités de mods altérées pour une meilleure personnalisation.",
             "health": 270,
-            "shield": 550,
-            "armor": 290,
+            "shield": 190,
+            "armor": 650,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
@@ -1635,7 +1635,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pirate/Abilities/PirateArmourAbility",
                     "abilityName": "Flibuste",
-                    "description": "Pillez l’armure des ennemis proches et augmentez les Dégâts <DT_CORROSIVE_COLOR>Corrosifs de vos Pouvoirs et de vos armes. Les ennemis affectés par un Effet de Statut <DT_CORROSIVE_COLOR>Corrosif offrent une augmentation plus importante."
+                    "description": "Pillez l'armure des ennemis proches et augmentez les Dégâts <DT_CORROSIVE_COLOR>Corrosifs de vos Pouvoirs et de vos armes. Les ennemis affectés par un Effet de Statut <DT_CORROSIVE_COLOR>Corrosif offrent une augmentation plus importante."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pirate/Abilities/KrakenAbility",
@@ -1795,7 +1795,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterFinalChapterAbility",
                     "abilityName": "Verset Final",
-                    "description": "Dante doit composer deux autres Versets avant son Verset Final.\r\n\r\nTRIOMPHE: deux Versets Légers lancés successivement revigorent les alliés avec un buff augmentant la Santé et confèrent Garde Renforcée. Les éliminations et les assistances la régénèrent brièvement.<br>Dante doit composer deux autres Versets avant son Verset Final.\r\n\r\nTRAGÉDIE: deux Versets Sombres lancés successivement attaquent les ennemis. Les Dégâts sur la durée des Effets de Statut <DT_SLASH_COLOR>Tranchants, de <DT_FIRE_COLOR>Feu et de <DT_POISON_COLOR>Poison s’accumulent en une seule explosion.<br>Dante doit composer deux autres Versets avant son Verset Final.\r\n\r\nGARDIEN DES MOTS: un Verset Léger suivi d'un Verset Sombre soutient les alliés grâce à des copies du Noctua. Ces copies synchronisent leurs attaques avec celles de leur allié désigné.<br>Dante doit composer deux autres Versets avant son Verset Final.\r\n\r\nPAGE VOLANTE: un Verset Sombre suivi d'un Verset Léger invoque des Paragrimmes qui fondent sur les ennemis, les rendant vulnérables aux Chances et Dégâts de Statut, et éloignant les attaques ennemies des alliés."
+                    "description": "Dante doit composer deux autres Versets avant son Verset Final.\r\n\r\nTRIOMPHE: deux Versets Légers lancés successivement revigorent les alliés avec un buff augmentant la Santé et confèrent Garde Renforcée. Les éliminations et les assistances la régénèrent brièvement.<br>Dante doit composer deux autres Versets avant son Verset Final.\r\n\r\nTRAGÉDIE: deux Versets Sombres lancés successivement attaquent les ennemis. Les Dégâts sur la durée des Effets de Statut <DT_SLASH_COLOR>Tranchants, de <DT_FIRE_COLOR>Feu et de <DT_POISON_COLOR>Poison s'accumulent en une seule explosion.<br>Dante doit composer deux autres Versets avant son Verset Final.\r\n\r\nGARDIEN DES MOTS: un Verset Léger suivi d'un Verset Sombre soutient les alliés grâce à des copies du Noctua. Ces copies synchronisent leurs attaques avec celles de leur allié désigné.<br>Dante doit composer deux autres Versets avant son Verset Final.\r\n\r\nPAGE VOLANTE: un Verset Sombre suivi d'un Verset Léger invoque des Paragrimmes qui fondent sur les ennemis, les rendant vulnérables aux Chances et Dégâts de Statut, et éloignant les attaques ennemies des alliés."
                 }
             ],
             "productCategory": "Suits"
@@ -3322,6 +3322,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Geode/CitrinePrime",
+            "name": "Citrine Prime",
+            "parentName": "/Lotus/Powersuits/Geode/GeodeBaseSuit",
+            "description": "La citadelle cristalline. Citrine Prime captive par son éclat raffiné, ses gemmes brillantes serties dans le plus fin des filigranes d'or.",
+            "health": 400,
+            "shield": 270,
+            "armor": 325,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Citrine confère aux alliés proches |BASE| points de régénération de Santé par seconde. Ramassez un Orbe de Santé pour augmenter la régénération de |HPS|, jusqu'à un maximum de |MAX|.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Geode/Abilities/GeodeShardsAbility",
+                    "abilityName": "Explosion Fracturée",
+                    "description": "Tranchez et étourdissez les ennemis avec une explosion de cristal qui inflige un Effet de Statut <DT_SLASH_COLOR>Tranchant. Les ennemis affectés par cet Effet de Statut ont une chance accrue de laisser tomber des Orbes de Santé et d'Énergie."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Geode/Abilities/GeodeShellAbility",
+                    "abilityName": "Strate Protectrice",
+                    "description": "Citrine se protège et renforce ses alliés proches d'une couche cristalline qui se désintègre progressivement. Les éliminations et les assistances augmentent la puissance défensive de la coque."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Geode/Abilities/GeodeCrystalAbility",
+                    "abilityName": "Gemme Prismatique",
+                    "description": "Déploie une gemme qui tire des rayons prismatiques. La gemme cible les ennemis qui subissent des Dégâts d'arme de Citrine et de ses alliés. Ses rayons infligent des Effets de Statut de Feu, de Glace, de Poison et Électriques. Les Chances et la Durée de Statut augmentent pour les alliés proches."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Geode/Abilities/GeodeGrowthsAbility",
+                    "abilityName": "Cristallisation",
+                    "description": "Citrine invoque des fractales de cristal. Les fractales se lancent, cherchant des ennemis. Les ennemis touchés par les fractales sont paralysés par des excroissances cristallines. Visez les excroissances pour infliger des Dégâts Critiques."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Garuda/GarudaPrime",
             "name": "Garuda Prime",
             "parentName": "/Lotus/Powersuits/Garuda/GarudaBaseSuit",
@@ -3809,6 +3847,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Duelist/Duelist",
+            "name": "Narin",
+            "parentName": "/Lotus/Powersuits/Duelist/DuelistBaseSuit",
+            "description": "Narin forme un tourbillon, sa lame est acérée et mortelle comme un vent glacial. Elle manie la glace pour se défendre avec habileté et donne des coups d'épée rapides.",
+            "health": 270,
+            "shield": 550,
+            "armor": 165,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Chaque cumul d'Effet de Statut de <DT_FREEZE_COLOR>Glace sur les ennemis augmente les chances de faire apparaître Sangodae de |CHANCE|%, octroyant des Dégâts de <DT_FREEZE_COLOR>Glace aux armes Principales et Secondaires pendant |DURATION|s. Narin gagne également des Dégâts de Glace pour ses Pouvoirs.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Duelist/Abilities/DuelistThrustAbility",
+                    "abilityName": "Néote",
+                    "description": "Foncez avec la rapière de glace Néote de Narin, infligeant des Dégâts de <DT_FREEZE_COLOR>Glace et un Effet de Statut de <DT_FREEZE_COLOR>Glace et de <DT_PUNCTURE_COLOR>Perforation aux ennemis directement devant vous.\r\n\r\nGagne de la Glace pour chaque ennemi touché."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Duelist/Abilities/DuelistRiposteAbility",
+                    "abilityName": "Naraemagi",
+                    "description": "Récupérez des Boucliers en absorbant l'Effet de Statut de <DT_FREEZE_COLOR>Glace des ennemis proches. Obtenez <OVERGUARD_GAIN> points de Garde Renforcée si vos Boucliers sont au max.\r\n\r\nGagnez de la Glace pour chaque ennemi touché."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Duelist/Abilities/DuelistLeapAbility",
+                    "abilityName": "Hakchum",
+                    "description": "Appuyez pour sauter, appuyez à nouveau pour atterrir à l'endroit ciblé. Applique une Vulnérabilité aux Dégâts et aux Effets de Statut de <DT_FREEZE_COLOR>Glace dans un large rayon à l'atterrissage.\r\n\r\nGagnez de la Glace pour chaque ennemi touché."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Duelist/Abilities/DuelistBladeDanceAbility",
+                    "abilityName": "Nurinarim",
+                    "description": "Nécessite une jauge de Glace pleine pour être lancé. Un esprit ancestral s'empare de Narin, qui se met à danser avec son épée, infligeant des Dégâts continus à proximité. Appuyez sur Attaque sur les cibles marquées pour donner de puissants coups givrés qui réduisent l'Armure et les Boucliers. Toucher des ennemis gelés les fait exploser, infligeant d'importants Dégâts de <DT_FREEZE_COLOR>Glace aux alentours."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Dragon/Dragon",
             "name": "Chroma",
             "parentName": "/Lotus/Powersuits/Dragon/DragonBaseSuit",
@@ -4002,7 +4078,7 @@
             "uniqueName": "/Lotus/Powersuits/Dagath/Dagath",
             "name": "Dagath",
             "parentName": "/Lotus/Powersuits/Dagath/DagathBaseSuit",
-            "description": "Ne sous-estimez jamais le pouvoir et la colère d’une tristesse maussade. La malveillance de Dagath inflige des dégâts importants.",
+            "description": "Ne sous-estimez jamais le pouvoir et la colère d'une tristesse maussade. La malveillance de Dagath inflige des dégâts importants.",
             "health": 566,
             "shield": 150,
             "armor": 125,
@@ -4465,7 +4541,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Bard/Abilities/BardJamAbility",
                     "abilityName": "Métronome",
-                    "description": "Octroie des avantages aux Tennos qui réalisent des actions synchronisées avec la musique d'Octavia. Les sauts au bon moment fournissent l'avantage de vitesse de course Vivace. S'accroupir sur le tempo permet de se camoufler avec l'avantage Nocturne. Tirer en rythme accorde l'avantage de tirs multiples Opéra. Les coups de Mêlée synchrones donnent l'avantage de Dégâts en Mêlée Forte."
+                    "description": "Octroie des avantages aux Tennos qui réalisent des actions synchronisées avec la musique d'Octavia. Les sauts au bon moment fournissent l'avantage de vitesse Vivace. S'accroupir sur le tempo permet de se camoufler avec l'avantage Nocturne. Tirer en rythme accorde l'avantage de tirs multiples Opéra. Les coups de Mêlée synchrones donnent l'avantage de Dégâts en Mêlée Forte."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Bard/Abilities/BardAmplifyAbility",
@@ -4503,7 +4579,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Bard/Abilities/BardJamAbility",
                     "abilityName": "Métronome",
-                    "description": "Octroie des avantages aux Tennos qui réalisent des actions synchronisées avec la musique d'Octavia. Les sauts au bon moment fournissent l'avantage de vitesse de course Vivace. S'accroupir sur le tempo permet de se camoufler avec l'avantage Nocturne. Tirer en rythme accorde l'avantage de tirs multiples Opéra. Les coups de Mêlée synchrones donnent l'avantage de Dégâts en Mêlée Forte."
+                    "description": "Octroie des avantages aux Tennos qui réalisent des actions synchronisées avec la musique d'Octavia. Les sauts au bon moment fournissent l'avantage de vitesse Vivace. S'accroupir sur le tempo permet de se camoufler avec l'avantage Nocturne. Tirer en rythme accorde l'avantage de tirs multiples Opéra. Les coups de Mêlée synchrones donnent l'avantage de Dégâts en Mêlée Forte."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Bard/Abilities/BardAmplifyAbility",
@@ -4526,27 +4602,27 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Les bruits des armes sont étouffés, ce qui les rend inaudibles par les ennemis.",
+            "passiveDescription": "Lors de l'utilisation de ses Pouvoirs, Banshee perce les oreilles de ses ennemis dans un rayon de |RADIUS|m, leur infligeant un Effet de Statut max de <DT_PUNCTURE_COLOR>Perforation. De plus, le bruit de son arme est réduit.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Banshee/Abilities/PushAbility",
                     "abilityName": "Explosion sonique",
-                    "description": "Banshee émet une onde sonique qui repousse les cibles à portée avec assez de force pour les neutraliser ou les tuer."
+                    "description": "Banshee émet une onde sonique qui repousse les cibles à portée avec assez de force pour neutraliser les assaillants et réduire leur armure."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Banshee/Abilities/SonarAbility",
                     "abilityName": "Sonar",
-                    "description": "Utilisant la détection acoustique, le puissant sonar de Banshee détecte et traque les ennemis tout en exposant leurs points faibles à tous les membres de votre équipe."
+                    "description": "Utilisant la détection acoustique, le puissant sonar de Banshee détecte et traque les ennemis tout en exposant leurs Points faibles à tous les membres de votre équipe."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
                     "abilityName": "Silence",
-                    "description": "Utiliser Silence crée une aura autour de Banshee qui étourdit les ennemis et limite leur perception ainsi que leurs réactions tactiques à vos coups de feu et à vos attaques."
+                    "description": "L'utilisation de Silence entoure Banshee d'une aura qui étourdit les ennemis, limite leur perception et leur réaction tactique aux tirs et aux attaques des Warframes, et les empêche d'activer leurs pouvoirs."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
                     "abilityName": "Secousse Sonique",
-                    "description": "Canalisant toute son énergie acoustique dans le sol et les structures environnantes, Banshee utilise des réverbérations ultrasoniques pour faire violemment trembler le sol."
+                    "description": "Canalisant toute son énergie acoustique dans le sol et les structures environnantes, Banshee utilise des réverbérations ultrasoniques pour faire violemment trembler le sol dans une zone ciblée."
                 }
             ],
             "productCategory": "Suits"
@@ -4555,7 +4631,7 @@
             "uniqueName": "/Lotus/Powersuits/Banshee/Banshee",
             "name": "Banshee",
             "parentName": "/Lotus/Powersuits/Banshee/BansheeBaseSuit",
-            "description": "L'appel de Banshee annonce la mort. Elle maintient le contrôle des foules et identifie les points faibles de l'ennemi avec des attaques sonores. Peu d'adversaires peuvent tenir leur position lorsqu'ils sont frappés par sa force.",
+            "description": "L'appel de Banshee annonce la mort. Elle maintient le contrôle des foules et identifie les Points faibles de l'ennemi avec des attaques sonores. Peu d'adversaires peuvent tenir leur position lorsqu'ils sont frappés par sa force.",
             "health": 270,
             "shield": 270,
             "armor": 105,
@@ -4564,27 +4640,27 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Les bruits des armes sont étouffés, ce qui les rend inaudibles par les ennemis.",
+            "passiveDescription": "Lors de l'utilisation de ses Pouvoirs, Banshee perce les oreilles de ses ennemis dans un rayon de |RADIUS|m, leur infligeant un Effet de Statut max de <DT_PUNCTURE_COLOR>Perforation. De plus, le bruit de son arme est réduit.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Banshee/Abilities/PushAbility",
                     "abilityName": "Explosion sonique",
-                    "description": "Banshee émet une onde sonique qui repousse les cibles à portée avec assez de force pour les neutraliser ou les tuer."
+                    "description": "Banshee émet une onde sonique qui repousse les cibles à portée avec assez de force pour neutraliser les assaillants et réduire leur armure."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Banshee/Abilities/SonarAbility",
                     "abilityName": "Sonar",
-                    "description": "Utilisant la détection acoustique, le puissant sonar de Banshee détecte et traque les ennemis tout en exposant leurs points faibles à tous les membres de votre équipe."
+                    "description": "Utilisant la détection acoustique, le puissant sonar de Banshee détecte et traque les ennemis tout en exposant leurs Points faibles à tous les membres de votre équipe."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
                     "abilityName": "Silence",
-                    "description": "Utiliser Silence crée une aura autour de Banshee qui étourdit les ennemis et limite leur perception ainsi que leurs réactions tactiques à vos coups de feu et à vos attaques."
+                    "description": "L'utilisation de Silence entoure Banshee d'une aura qui étourdit les ennemis, limite leur perception et leur réaction tactique aux tirs et aux attaques des Warframes, et les empêche d'activer leurs pouvoirs."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
                     "abilityName": "Secousse Sonique",
-                    "description": "Canalisant toute son énergie acoustique dans le sol et les structures environnantes, Banshee utilise des réverbérations ultrasoniques pour faire violemment trembler le sol."
+                    "description": "Canalisant toute son énergie acoustique dans le sol et les structures environnantes, Banshee utilise des réverbérations ultrasoniques pour faire violemment trembler le sol dans une zone ciblée."
                 }
             ],
             "productCategory": "Suits"
