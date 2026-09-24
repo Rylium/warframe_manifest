@@ -3,48 +3,35 @@ body {
   background-color: #3c3c3c;
 }
 
+/* Page container */
 #container {
   display: block;
   padding: 0.4rem;
+  height: 95dvh;
+  overflow-y: auto;
+  position: relative;
 }
 
-.manifest-group {
-  display: block;
-  background-color: #05253787;
-  border: 1px solid #5f5f5f;
-  padding: 0.2rem 0.6rem;
-}
-
-.manifest-group>details>summary {
-  cursor: pointer;
-}
-
-.manifest-group h2 {
-  display: inline;
-  margin: 0;
-}
-
-.manifest-group-content {
-  display: block;
-  padding: 0.5rem 1.2rem;
-}
-
-.manifest-group-content>ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+/* Listing */
+#manifest-list {
   list-style: none;
+  margin: 0;
   padding: 0;
-  margin: 20px 0;
-  justify-content: flex-start;
+  position: relative;
 }
 
-.manifest-group-content>ul>li {
-  display: block;
+/* Items */
+#manifest-list li {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 120px;
+  box-sizing: border-box;
 }
 
-.manifest-group-content img {
-  width: 250px;
+/* IMGs */
+#manifest-list img {
+  max-width: 120px;
   height: auto;
   object-fit: contain;
   border: 1px solid #89C6E5;
