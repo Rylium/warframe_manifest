@@ -88,11 +88,50 @@
             "Odonata Prime": { "paths": [ "/Lotus/Powersuits/Archwing/PrimeJetPack/" ] }
         },
         "Necramechs": {
-            "Bonewidow": { "paths": [ "/Lotus/Powersuits/EntratiMech/ThanoTech/" ] },
-            "Voidrig": { "paths": [ "/Lotus/Powersuits/EntratiMech/NechroTech/" ] }
+            "Bonewidow": { "paths": [ "/Lotus/Powersuits/EntratiMech/ThanoTech" ] },
+            "Voidrig": { "paths": [ "/Lotus/Powersuits/EntratiMech/NechroTech" ] }
         }
     },
-
+    "Abilities": {
+        "Warframes": {
+            "Warframes": {
+                "paths": [
+                    "/Lotus/Characters/Tenno/Accessory/Scarves/",
+                    "/Lotus/Characters/Tenno/Accessory/Armor/"
+                ]
+            }
+        },
+        "Necramechs": {
+            "Bonewidow": {
+                "paths": [
+                    "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechGrabAbility",
+                    "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechRepulseAbility",
+                    "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechRiotShieldAbility",
+                    "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechSwordAbility"
+                ]
+            },
+            "Voidrig": {
+                "paths": [
+                    "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechMinefieldAbility",
+                    "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechOilGrenadeAbility",
+                    "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechShockingIronAbility",
+                    "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechTurretModeAbility"
+                ]
+            }
+        },
+        "Enemies": {
+            "Bonewidow": {
+                "paths": [
+                    "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/AbilitySword/NechroTechSwordWeapon"
+                ]
+            },
+            "Voidrig": {
+                "paths": [
+                    "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/AbilitySword/NechroTechSwordWeapon"
+                ]
+            }
+        }
+    },
     "Recipes": {
         "Archwing": {
             "paths": [
@@ -103,6 +142,165 @@
             "paths": [
                 "/Lotus/Types/Recipes/WeaponRecipes/"
             ]
+        }
+    },
+    "Items": {
+        "Fish Baits": {
+            "Cetus": {
+                "paths": [
+                    "/Lotus/Types/Game/FishBait/GenericFishBait",
+                    "/Lotus/Types/Game/FishBait/BothUncommonFishBaitItem",
+                    "/Lotus/Types/Game/FishBait/BothRareFishBaitAItem",
+                    "/Lotus/Types/Game/FishBait/NightRareFishBaitAItem",
+                    "/Lotus/Types/Game/FishBait/NightRareFishBaitBItem",
+                    "/Lotus/Types/Game/FishBait/NightLegendaryFishBaitItem"
+                ]
+            },
+            "Fortuna": {
+                "paths": [
+                    "/Lotus/Types/Game/FishBait/Venus/"
+                ]
+            },
+            "Cambion Drift": {
+                "paths": [
+                    "/Lotus/Types/Game/FishBait/Infested/"
+                ]
+            }
+        },
+        "Relics": {
+            "Lith": {
+                "paths": [
+                    "/Lotus/Types/Game/Projections/T1VoidProjection"
+                ]
+            },
+            "Meso": {
+                "paths": [
+                    "/Lotus/Types/Game/Projections/T2VoidProjection"
+                ]
+            },
+            "Neo": {
+                "paths": [
+                    "/Lotus/Types/Game/Projections/T3VoidProjection"
+                ]
+            },
+            "Axi": {
+                "paths": [
+                    "/Lotus/Types/Game/Projections/T4VoidProjection"
+                ]
+            },
+            "Requiem": {
+                "paths": [
+                    "/Lotus/Types/Game/Projections/T5VoidProjection"
+                ]
+            }
+        }
+    },
+    "Companions": {
+        "Kubrows": {
+            "Body Types": {
+                "paths": [
+                    "/Lotus/Types/Game/KubrowPet/BodyTypes/"
+                ]
+            },
+            "Colors": {
+                "paths": [
+                    "/Lotus/Types/Game/KubrowPet/Colors/"
+                ]
+            },
+            "Patterns": {
+                "paths": [
+                    "/Lotus/Types/Game/KubrowPet/Patterns/"
+                ]
+            },
+            "Precepts": {
+                "paths": [
+                    "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/"
+                ]
+            }
+        },
+        "Kavats": {
+            "Body Types": {
+                "paths": [
+                    "/Lotus/Types/Game/CatbrowPet/BodyTypes/"
+                ]
+            },
+            "Colors": {
+                "paths": [
+                    "/Lotus/Types/Game/CatbrowPet/BodyTypes/"
+                ]
+            },
+            "Patterns": {
+                "paths": [
+                    "/Lotus/Types/Game/CatbrowPet/Patterns/",
+                    "/Lotus/Types/Game/InfestedKavatPet/Patterns/",
+                    "/Lotus/Types/Game/InfestedPredatorPet/Patterns/"
+                ]
+            },
+            "Precepts": {
+                "paths": [
+                    "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/"
+                ]
+            }
+        }
+    },
+    "Decorations": {
+        "Orbiter": {
+            "Quarters Wallpapers": {
+                "paths": [
+                    "/Lotus/Types/Game/QuartersWallpapers/"
+                ]
+            }
+        }
+    },
+    "Interface": {
+        "Themes": {
+            "paths": [
+                "/Lotus/Interface/Graphics/CustomUI/Backgrounds/",
+                "/Lotus/Interface/Graphics/CustomUI/BaruukStyle",
+                "/Lotus/Interface/Graphics/CustomUI/ConqueraStyle",
+                "/Lotus/Interface/Graphics/CustomUI/ContrastStyle",
+                "/Lotus/Interface/Graphics/CustomUI/CorpusStyle",
+                "/Lotus/Interface/Graphics/CustomUI/DeadlockStyle",
+                "/Lotus/Interface/Graphics/CustomUI/DrippyStyle",
+                "/Lotus/Interface/Graphics/CustomUI/EquinoxStyle",
+                "/Lotus/Interface/Graphics/CustomUI/FortunaStyle",
+                "/Lotus/Interface/Graphics/CustomUI/GrineerStyle",
+                "/Lotus/Interface/Graphics/CustomUI/HelminthStyle",
+                "/Lotus/Interface/Graphics/CustomUI/LegacyStyle",
+                "/Lotus/Interface/Graphics/CustomUI/LotusStyle",
+                "/Lotus/Interface/Graphics/CustomUI/LunarNewYearStyle",
+                "/Lotus/Interface/Graphics/CustomUI/NatahStyle",
+                "/Lotus/Interface/Graphics/CustomUI/NidusStyle",
+                "/Lotus/Interface/Graphics/CustomUI/OrokinStyle",
+                "/Lotus/Interface/Graphics/CustomUI/RetroStyle",
+                "/Lotus/Interface/Graphics/CustomUI/StalkerStyle",
+                "/Lotus/Interface/Graphics/CustomUI/TennoStyle",
+                "/Lotus/Interface/Graphics/CustomUI/ZephyrDeluxeStyle"
+            ]
+        },
+        "Cursors": {
+            "paths": [
+                "/Lotus/Interface/Graphics/CustomUI/Cursors/"
+            ]
+        }
+    },
+    "Nightwaves": {
+        "Challenges": {   
+            "Daily": {
+                "paths": [
+                    "/Lotus/Types/Challenges/Seasons/Daily/"
+                ]
+            },
+            "Weekly": {
+                "paths": [
+                    "/Lotus/Types/Challenges/Seasons/Weekly/"
+                ]
+            },
+            "Weekly (Hard)": {
+                "paths": [
+                    "/Lotus/Types/Challenges/Seasons/WeeklyHard/"
+                ]
+            }
         }
     }
 }
