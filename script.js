@@ -1,4 +1,4 @@
-const PublicExportURL = "https://content.warframe.com/PublicExport/";
+const PublicExportURL = "https://content.warframe.com/PublicExport";
 const ManifestURL = "./data/ExportManifest.json";
 const IndexURL = "./data/warframe-manifest-index.json";
 
@@ -31,7 +31,7 @@ async function loadManifest() {
         // Crée dynamiquement l'arborescence selon les clés (ex: ["Gears", "Warframes", "Ash"])
         insertCategorizedItem(categorizedItems, match.categories, item);
       } else {
-        console.log(item.uniqueName);
+        console.log(item.uniqueName + '-> (' + PublicExportURL + item.textureLocation + ')');
       }
     }
 
