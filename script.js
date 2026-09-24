@@ -7,7 +7,6 @@ const container = document.getElementById("container");
 // -- Load JSON
 async function loadManifest() {
   try {
-    // 1. Chargement parallèle des deux fichiers JSON
     const [manifestResponse, indexResponse] = await Promise.all([
       fetch(ManifestURL),
       fetch(IndexURL)
@@ -18,119 +17,114 @@ async function loadManifest() {
 
     const manifest = manifestData.Manifest || [];
 
-    // 2. Extraction à plat de tous les chemins valides pour un filtrage rapide
-    const validPaths = extractValidPaths(indexData);
+    // 1. Aplatit la carte de recherche pour garder d'excellentes performances
+    const pathMap = buildPathMap(indexData);
 
-    // 3. Traitement et filtrage des items du Manifest
+    // 2. Traitement et classement des items
     const categorizedItems = {};
 
     for (let i = 0; i < manifest.length; i++) {
       const item = manifest[i];
-      const match = findCategoryMatch(item.uniqueName, indexData);
+      const match = findMatch(item.uniqueName, pathMap);
 
       if (match) {
-        const { category, subCategory } = match;
-
-        if (!categorizedItems[category]) {
-          categorizedItems[category] = {};
-        }
-        if (!categorizedItems[category][subCategory]) {
-          categorizedItems[category][subCategory] = [];
-        }
-
-        categorizedItems[category][subCategory].push(item);
+        // Crée dynamiquement l'arborescence selon les clés (ex: ["Gears", "Warframes", "Ash"])
+        insertCategorizedItem(categorizedItems, match.categories, item);
       } else {
-        // Chemin non pris en charge
         console.log(item.uniqueName);
       }
     }
 
-    // 4. Génération de l'arborescence HTML
-    renderTree(categorizedItems);
+    // 3. Génération dynamique de l'arborescence HTML avec les "nest"
+    renderTree(categorizedItems, container, 1);
 
   } catch (error) {
     console.error("Erreur lors du traitement du Manifest :", error);
   }
 }
 
-// Extrait la liste complète des "paths" de l'index
-function extractValidPaths(indexData) {
-  const paths = [];
-  for (const cat in indexData) {
-    for (const subCat in indexData[cat]) {
-      if (indexData[cat][subCat].paths) {
-        paths.push(...indexData[cat][subCat].paths);
-      }
+// Parcours récursif pour récupérer TOUS les 'paths' et garder leur chemin de catégories
+function buildPathMap(obj, currentCategories = []) {
+  let map = [];
+
+  for (const key in obj) {
+    if (key === "paths" && Array.isArray(obj[key])) {
+      obj[key].forEach(path => {
+        map.push({ path, categories: currentCategories });
+      });
+    } else if (typeof obj[key] === "object" && obj[key] !== null) {
+      map = map.concat(buildPathMap(obj[key], [...currentCategories, key]));
     }
   }
-  return paths;
+
+  return map;
 }
 
-// Associe un uniqueName à sa catégorie et sous-catégorie
-function findCategoryMatch(uniqueName, indexData) {
-  for (const category in indexData) {
-    for (const subCategory in indexData[category]) {
-      const paths = indexData[category][subCategory].paths || [];
-      for (let i = 0; i < paths.length; i++) {
-        if (uniqueName.startsWith(paths[i])) {
-          return { category, subCategory };
-        }
-      }
+// Trouve si le uniqueName commence par un des chemins enregistrés
+function findMatch(uniqueName, pathMap) {
+  for (let i = 0; i < pathMap.length; i++) {
+    if (uniqueName.startsWith(pathMap[i].path)) {
+      return pathMap[i];
     }
   }
   return null;
 }
 
-// Génère la structure HTML globale
-// Génère la structure HTML globale avec gestion du niveau de "nest"
-function renderTree(categorizedItems) {
-  // Liste principale = Niveau 1
-  const mainUl = document.createElement("ul");
-  mainUl.setAttribute("data-nest", "1");
-
-  for (const category in categorizedItems) {
-    const categoryLi = document.createElement("li");
-    
-    const categoryTitle = document.createElement("h2");
-    categoryTitle.textContent = category;
-    categoryLi.appendChild(categoryTitle);
-
-    // Sous-famille = Niveau 2
-    const subCategoryUl = document.createElement("ul");
-    subCategoryUl.setAttribute("data-nest", "2");
-
-    for (const subCategory in categorizedItems[category]) {
-      const subCategoryLi = document.createElement("li");
-      
-      const subCategoryTitle = document.createElement("h3");
-      subCategoryTitle.textContent = subCategory;
-      subCategoryLi.appendChild(subCategoryTitle);
-
-      // Liste finale d'items = Niveau 3
-      const itemsUl = document.createElement("ul");
-      itemsUl.setAttribute("data-nest", "3");
-
-      const items = categorizedItems[category][subCategory];
-      const fragment = document.createDocumentFragment();
-
-      for (let i = 0; i < items.length; i++) {
-        fragment.appendChild(buildManifestNode(items[i]));
-      }
-
-      itemsUl.appendChild(fragment);
-      subCategoryLi.appendChild(itemsUl);
-      subCategoryUl.appendChild(subCategoryLi);
+// Insère un élément dans l'objet imbriqué
+function insertCategorizedItem(target, categories, item) {
+  let current = target;
+  for (let i = 0; i < categories.length; i++) {
+    const cat = categories[i];
+    if (i === categories.length - 1) {
+      if (!current[cat]) current[cat] = [];
+      current[cat].push(item);
+    } else {
+      if (!current[cat]) current[cat] = {};
+      current = current[cat];
     }
-
-    categoryLi.appendChild(subCategoryUl);
-    mainUl.appendChild(categoryLi);
   }
-
-  container.innerHTML = "";
-  container.appendChild(mainUl);
 }
 
-// Build HTML nodes for each items (structure HTML identique)
+// Génère dynamiquement les <ul> et <hX> en fonction de la profondeur
+function renderTree(nodes, parentElement, depth) {
+  const ul = document.createElement("ul");
+  ul.setAttribute("data-nest", depth);
+
+  for (const key in nodes) {
+    const li = document.createElement("li");
+
+    if (Array.isArray(nodes[key])) {
+      // Nous sommes arrivés aux items (feuilles de l'arbre)
+      const title = document.createElement("h" + Math.min(depth + 1, 6));
+      title.textContent = key;
+      li.appendChild(title);
+
+      const itemsUl = document.createElement("ul");
+      itemsUl.setAttribute("data-nest", depth + 1);
+
+      const fragment = document.createDocumentFragment();
+      nodes[key].forEach(item => {
+        fragment.appendChild(buildManifestNode(item));
+      });
+
+      itemsUl.appendChild(fragment);
+      li.appendChild(itemsUl);
+    } else {
+      // C'est encore une sous-catégorie
+      const title = document.createElement("h" + Math.min(depth + 1, 6));
+      title.textContent = key;
+      li.appendChild(title);
+
+      renderTree(nodes[key], li, depth + 1);
+    }
+
+    ul.appendChild(li);
+  }
+
+  parentElement.appendChild(ul);
+}
+
+// Construction de la carte item HTML
 function buildManifestNode(item) {
   const li = document.createElement("li");
 
