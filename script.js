@@ -82,8 +82,11 @@ function findCategoryMatch(uniqueName, indexData) {
 }
 
 // Génère la structure HTML globale
+// Génère la structure HTML globale avec gestion du niveau de "nest"
 function renderTree(categorizedItems) {
+  // Liste principale = Niveau 1
   const mainUl = document.createElement("ul");
+  mainUl.setAttribute("data-nest", "1");
 
   for (const category in categorizedItems) {
     const categoryLi = document.createElement("li");
@@ -92,7 +95,9 @@ function renderTree(categorizedItems) {
     categoryTitle.textContent = category;
     categoryLi.appendChild(categoryTitle);
 
+    // Sous-famille = Niveau 2
     const subCategoryUl = document.createElement("ul");
+    subCategoryUl.setAttribute("data-nest", "2");
 
     for (const subCategory in categorizedItems[category]) {
       const subCategoryLi = document.createElement("li");
@@ -101,8 +106,10 @@ function renderTree(categorizedItems) {
       subCategoryTitle.textContent = subCategory;
       subCategoryLi.appendChild(subCategoryTitle);
 
-      // Liste des items
+      // Liste finale d'items = Niveau 3
       const itemsUl = document.createElement("ul");
+      itemsUl.setAttribute("data-nest", "3");
+
       const items = categorizedItems[category][subCategory];
       const fragment = document.createDocumentFragment();
 
