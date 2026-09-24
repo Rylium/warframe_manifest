@@ -166,3 +166,70 @@ ul.items-list > li > figure > img {
   object-fit: contain;
   filter: drop-shadow(0 0 4px rgba(0, 240, 255, 0.4));
 }
+
+details {
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+/* Enlève la flèche native par défaut du navigateur */
+summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover {
+  background: rgba(0, 240, 255, 0.08);
+}
+
+/* Alignement des titres dans les summary */
+summary > :is(h2, h3, h4, h5, h6) {
+  margin: 0 !important;
+  display: inline-block;
+  border-bottom: none !important; /* On retire les bordures sous les titres pour l'accordéon */
+}
+
+/* --- ICÔNE D'ÉTAT EN CSS (FLECHE FUTURISTE) --- */
+.accordion-icon {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #00f0ff;
+  border-bottom: 2px solid #00f0ff;
+  transform: rotate(-45deg); /* Flèche pointant vers la droite */
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 2px 2px 5px rgba(0, 240, 255, 0.4);
+  margin-right: 8px;
+}
+
+/* Rotation de l'icône à l'ouverture */
+details[open] > summary .accordion-icon {
+  transform: rotate(45deg); /* Flèche pointant vers le bas */
+}
+
+/* --- ANIMATION DE DÉPLOIEMENT SMOOTH --- */
+@keyframes accordionOpen {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+details[open] > :not(summary) {
+  animation: accordionOpen 0.25s ease-out forwards;
+}

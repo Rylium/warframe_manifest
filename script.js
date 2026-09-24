@@ -86,6 +86,7 @@ function insertCategorizedItem(target, categories, item) {
 }
 
 // Génère dynamiquement les <ul> et <hX> en fonction de la profondeur
+// Génère dynamiquement la structure avec des wrappers repliables <details>
 function renderTree(nodes, parentElement, depth) {
   const ul = document.createElement("ul");
   ul.setAttribute("data-nest", depth);
@@ -93,13 +94,25 @@ function renderTree(nodes, parentElement, depth) {
   for (const key in nodes) {
     const li = document.createElement("li");
 
-    if (Array.isArray(nodes[key])) {
-      // Titre du groupe final
-      const title = document.createElement("h" + Math.min(depth + 1, 6));
-      title.textContent = key;
-      li.appendChild(title);
+    // Création du wrapper repliable
+    const details = document.createElement("details");
+    const summary = document.createElement("summary");
 
-      // Liste finale des items -> On ajoute la classe 'items-list'
+    // Titre dynamique selon la profondeur
+    const titleTag = "h" + Math.min(depth + 1, 6);
+    const title = document.createElement(titleTag);
+    title.textContent = key;
+
+    // Icône d'état d'ouverture / fermeture
+    const icon = document.createElement("span");
+    icon.className = "accordion-icon";
+
+    summary.appendChild(title);
+    summary.appendChild(icon);
+    details.appendChild(summary);
+
+    if (Array.isArray(nodes[key])) {
+      // Liste finale des cartes d'items
       const itemsUl = document.createElement("ul");
       itemsUl.setAttribute("data-nest", depth + 1);
       itemsUl.classList.add("items-list");
@@ -110,15 +123,13 @@ function renderTree(nodes, parentElement, depth) {
       });
 
       itemsUl.appendChild(fragment);
-      li.appendChild(itemsUl);
+      details.appendChild(itemsUl);
     } else {
-      const title = document.createElement("h" + Math.min(depth + 1, 6));
-      title.textContent = key;
-      li.appendChild(title);
-
-      renderTree(nodes[key], li, depth + 1);
+      // Sous-groupe : appel récursif
+      renderTree(nodes[key], details, depth + 1);
     }
 
+    li.appendChild(details);
     ul.appendChild(li);
   }
 
