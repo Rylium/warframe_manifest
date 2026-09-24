@@ -2,7 +2,78 @@ const PublicExportURL = "https://content.warframe.com/PublicExport";
 const container = document.getElementById("container");
 
 
-// Lazy loading des images
+/*
+ * ============================================================
+ * CATÉGORISATION DU MANIFEST
+ * ============================================================
+ *
+ * "match" correspond au chemin réel présent dans uniqueName,
+ * sans le dossier racine "Lotus".
+ *
+ * "groups" correspond à la hiérarchie que l'on souhaite afficher.
+ *
+ * La règle la plus spécifique est toujours prioritaire.
+ *
+ * Exemple :
+ *
+ * /Lotus/Interface/Graphics/CustomUI/ConqueraStyle
+ *
+ * correspond à :
+ *
+ * ["Interface", "Graphics"]
+ *
+ * ET :
+ *
+ * ["Interface", "Graphics", "CustomUI"]
+ *
+ * La deuxième règle étant plus spécifique, elle sera utilisée.
+ */
+
+const GROUP_RULES = [
+
+  /*
+   * ============================================================
+   * UI
+   * ============================================================
+   */
+
+  {
+    match: ["Interface", "Graphics"],
+    groups: ["UI"]
+  },
+
+  {
+    match: ["Interface", "Graphics", "CustomUI"],
+    groups: ["UI", "CustomUI"]
+  },
+
+
+  /*
+   * ============================================================
+   * Characters
+   * ============================================================
+   */
+
+  {
+    match: ["Characters", "Tenno"],
+    groups: ["Characters", "Tenno"]
+  },
+
+  {
+    match: ["Characters", "Tenno", "Accessory"],
+    groups: ["Characters", "Tenno", "Accessories"]
+  }
+
+];
+
+
+
+/*
+ * ============================================================
+ * Lazy loading des images
+ * ============================================================
+ */
+
 const imageObserver = new IntersectionObserver(
   (entries, observer) => {
 
@@ -24,22 +95,30 @@ const imageObserver = new IntersectionObserver(
     }
   },
   {
-    // Commence à charger les images avant qu'elles
-    // n'entrent dans la fenêtre.
+    // Commence à charger les images avant
+    // qu'elles n'entrent dans la fenêtre.
     rootMargin: "300px 0px"
   }
 );
 
 
-// Image
+
+/*
+ * ============================================================
+ * Création d'une image
+ * ============================================================
+ */
+
 function createImage(item) {
 
   const img = document.createElement("img");
 
-  img.dataset.src = PublicExportURL + item.textureLocation;
+  img.dataset.src =
+    PublicExportURL + item.textureLocation;
+
   img.alt = item.name;
 
-  // Décodage asynchrone
+  // Décodage asynchrone.
   img.decoding = "async";
 
   // Les images du manifest ne sont pas prioritaires.
@@ -54,39 +133,203 @@ function createImage(item) {
 }
 
 
-// Construction de l'arbre en mémoire
+
+/*
+ * ============================================================
+ * Recherche d'une règle de catégorisation
+ * ============================================================
+ *
+ * Si plusieurs règles correspondent au même chemin,
+ * celle ayant le "match" le plus long est utilisée.
+ *
+ * Exemple :
+ *
+ * Interface / Graphics
+ * Interface / Graphics / CustomUI
+ *
+ * Pour :
+ *
+ * Interface / Graphics / CustomUI / ConqueraStyle
+ *
+ * => CustomUI gagne.
+ */
+
+function findGroupRule(parts) {
+
+  let bestRule = null;
+  let bestLength = -1;
+
+  for (const rule of GROUP_RULES) {
+
+    if (rule.match.length > parts.length) {
+      continue;
+    }
+
+    let matches = true;
+
+    for (let i = 0; i < rule.match.length; i++) {
+
+      if (parts[i] !== rule.match[i]) {
+        matches = false;
+        break;
+      }
+    }
+
+    if (!matches) {
+      continue;
+    }
+
+    /*
+     * La règle ayant le chemin correspondant
+     * le plus long est la plus spécifique.
+     */
+    if (rule.match.length > bestLength) {
+
+      bestRule = rule;
+      bestLength = rule.match.length;
+    }
+  }
+
+  return bestRule;
+}
+
+
+
+/*
+ * ============================================================
+ * Construction de l'arbre en mémoire
+ * ============================================================
+ */
+
 function buildTree(manifest) {
 
   const root = new Map();
 
+  let categorizedCount = 0;
+  let uncategorizedCount = 0;
+
+
   for (const item of manifest) {
+
+    if (
+      !item ||
+      !item.uniqueName ||
+      !item.textureLocation
+    ) {
+      continue;
+    }
+
 
     const parts = item.uniqueName
       .split("/")
       .filter(Boolean);
 
+
     /*
-      Exemple :
-      /Lotus/Characters/Tenno/Accessory/Scarves/GrnBannerScarf/GrnBannerScarfItem
-
-      parts :
-      [ "Lotus", "Characters", "Tenno", "Accessory", "Scarves", "GrnBannerScarf", "GrnBannerScarfItem" ]
-    */
-
+     * On attend au minimum :
+     *
+     * Lotus / Groupe / Item
+     */
     if (parts.length < 3) {
       continue;
     }
 
-    let currentMap = root; // Retire "Lotus"
-    const itemName = parts[parts.length - 1]; // L'item = dernier élément de la liste
+
+    /*
+     * Retire "Lotus".
+     */
+    if (parts[0] === "Lotus") {
+      parts.shift();
+    }
 
 
-    // Construction des groupes
-    for (let i = 1; i < parts.length - 1; i++) {
+    /*
+     * Le dernier élément est le nom de l'élément.
+     *
+     * Exemple :
+     *
+     * Interface
+     * Graphics
+     * CustomUI
+     * ConqueraStyle
+     *
+     * => ConqueraStyle = élément
+     */
+    const itemName = parts.pop();
 
-      const groupName = parts[i];
+
+    /*
+     * Le reste constitue le chemin réel.
+     */
+    const originalPath = [...parts];
+
+
+    /*
+     * Recherche de la règle personnalisée.
+     */
+    const rule = findGroupRule(parts);
+
+
+    let groupNames;
+
+
+    if (rule) {
+
+      /*
+       * Catégorie personnalisée.
+       */
+      groupNames = [...rule.groups];
+
+      categorizedCount++;
+
+    } else {
+
+      /*
+       * Aucun chemin personnalisé.
+       *
+       * On conserve le chemin original afin que
+       * l'élément reste visible dans l'arborescence.
+       */
+      groupNames = [...parts];
+
+      uncategorizedCount++;
+
+
+      /*
+       * LOG DES ÉLÉMENTS NON CATÉGORISÉS
+       */
+      console.warn(
+        "[Manifest] Élément non catégorisé :",
+        item.uniqueName,
+        "\nChemin :",
+        originalPath.join(" / ")
+      );
+    }
+
+
+    /*
+     * Si aucune famille n'existe, on ne peut pas
+     * correctement ajouter l'élément.
+     */
+    if (groupNames.length === 0) {
+      continue;
+    }
+
+
+    /*
+     * ========================================================
+     * Construction des groupes
+     * ========================================================
+     */
+
+    let currentMap = root;
+    let targetGroup = null;
+
+
+    for (const groupName of groupNames) {
 
       let group = currentMap.get(groupName);
+
 
       if (!group) {
 
@@ -96,55 +339,106 @@ function buildTree(manifest) {
           items: []
         };
 
-        currentMap.set(groupName, group);
+        currentMap.set(
+          groupName,
+          group
+        );
       }
 
+
+      targetGroup = group;
       currentMap = group.children;
-
-
-      // Dernier groupe
-      if (i === parts.length - 2) {
-
-        group.items.push({
-          name: itemName,
-          textureLocation: item.textureLocation
-        });
-      }
     }
+
+
+    /*
+     * ========================================================
+     * Ajout de l'élément
+     * ========================================================
+     */
+
+    targetGroup.items.push({
+      name: itemName,
+      textureLocation: item.textureLocation
+    });
   }
+
+
+  /*
+   * ============================================================
+   * Statistiques
+   * ============================================================
+   */
+
+  console.log(
+    `[Manifest] Catégorisés : ${categorizedCount}`
+  );
+
+  console.log(
+    `[Manifest] Non catégorisés : ${uncategorizedCount}`
+  );
+
+  console.log(
+    `[Manifest] Total traité : ${
+      categorizedCount + uncategorizedCount
+    }`
+  );
+
 
   return root;
 }
 
 
-// Création d'un groupe
+
+/*
+ * ============================================================
+ * Création d'un groupe
+ * ============================================================
+ */
+
 function createGroup(group) {
 
   const wrapper = document.createElement("div");
+
   wrapper.className = "manifest-group";
+
 
   const details = document.createElement("details");
 
+
   const summary = document.createElement("summary");
 
+
   const title = document.createElement("h2");
+
   title.textContent = group.name;
 
+
   summary.appendChild(title);
+
   details.appendChild(summary);
 
 
   const content = document.createElement("div");
 
   content.className = "manifest-group-content";
+
   content.dataset.parent = group.name;
 
+
   details.appendChild(content);
+
   wrapper.appendChild(details);
 
 
-  // Rendu différé
+  /*
+   * ==========================================================
+   * Rendu différé
+   * ==========================================================
+   */
+
   let rendered = false;
+
 
   details.addEventListener("toggle", () => {
 
@@ -152,10 +446,14 @@ function createGroup(group) {
       return;
     }
 
+
     rendered = true;
 
-    renderGroupContent(group, content);
 
+    renderGroupContent(
+      group,
+      content
+    );
   });
 
 
@@ -163,13 +461,25 @@ function createGroup(group) {
 }
 
 
-// Rendu du contenu d'un groupe
+
+/*
+ * ============================================================
+ * Rendu du contenu d'un groupe
+ * ============================================================
+ */
+
 function renderGroupContent(group, container) {
 
-  const fragment = document.createDocumentFragment();
+  const fragment =
+    document.createDocumentFragment();
 
 
-  // Sous-groupes
+  /*
+   * ==========================================================
+   * Sous-groupes
+   * ==========================================================
+   */
+
   for (const childGroup of group.children.values()) {
 
     fragment.appendChild(
@@ -178,34 +488,56 @@ function renderGroupContent(group, container) {
   }
 
 
-  // Items
+  /*
+   * ==========================================================
+   * Items
+   * ==========================================================
+   */
+
   if (group.items.length > 0) {
 
     const list = document.createElement("ul");
 
+
     for (const item of group.items) {
 
-      const listItem = document.createElement("li");
+      const listItem =
+        document.createElement("li");
 
-      const img = createImage(item);
+
+      const img =
+        createImage(item);
+
 
       listItem.appendChild(img);
+
       list.appendChild(listItem);
     }
+
 
     fragment.appendChild(list);
   }
 
 
-  // Une seule opération DOM
+  /*
+   * Une seule opération DOM.
+   */
   container.appendChild(fragment);
 }
 
 
-// Rendu initial
+
+/*
+ * ============================================================
+ * Rendu initial
+ * ============================================================
+ */
+
 function renderRoot(root) {
 
-  const fragment = document.createDocumentFragment();
+  const fragment =
+    document.createDocumentFragment();
+
 
   for (const group of root.values()) {
 
@@ -214,19 +546,35 @@ function renderRoot(root) {
     );
   }
 
+
   container.appendChild(fragment);
 }
 
 
-// Chargement
+
+/*
+ * ============================================================
+ * Chargement du Manifest
+ * ============================================================
+ */
+
 async function loadManifest() {
 
   try {
 
-    // Fetch + parsing JSON
-    const fetchStart = performance.now();
+    /*
+     * ========================================================
+     * Fetch + parsing JSON
+     * ========================================================
+     */
 
-    const response = await fetch("./data/ExportManifest.json");
+    const fetchStart =
+      performance.now();
+
+
+    const response =
+      await fetch("./data/ExportManifest.json");
+
 
     if (!response.ok) {
 
@@ -235,52 +583,82 @@ async function loadManifest() {
       );
     }
 
-    const data = await response.json();
 
-    const fetchEnd = performance.now();
+    const data =
+      await response.json();
+
+
+    const fetchEnd =
+      performance.now();
+
 
     console.log(
-      `Manifest chargé en ${(fetchEnd - fetchStart).toFixed(2)} ms`
-    );
-
-    console.log(
-      `Nombre d'entrées : ${data.Manifest.length}`
-    );
-
-
-    // Construction de l'arbre
-    const treeStart = performance.now();
-
-    const tree = buildTree(data.Manifest);
-
-    const treeEnd = performance.now();
-
-    console.log(
-      `Arbre construit en ${(treeEnd - treeStart).toFixed(2)} ms`
+      `Manifest chargé en ${
+        (fetchEnd - fetchStart).toFixed(2)
+      } ms`
     );
 
 
-    // Rendu
-    const renderStart = performance.now();
-
-    renderRoot(tree);
-
-    const renderEnd = performance.now();
-
     console.log(
-      `Rendu initial en ${(renderEnd - renderStart).toFixed(2)} ms`
+      `Nombre d'entrées : ${
+        data.Manifest.length
+      }`
     );
-
-    console.log("Manifest prêt.");
 
 
     /*
-      data.Manifest n'est désormais plus nécessaire.
+     * ========================================================
+     * Construction de l'arbre
+     * ========================================================
+     */
 
-      On laisse simplement data sortir de portée avec la fin
-      de cette fonction afin que le garbage collector puisse
-      récupérer la mémoire lorsqu'il le souhaite.
-    */
+    const treeStart =
+      performance.now();
+
+
+    const tree =
+      buildTree(data.Manifest);
+
+
+    const treeEnd =
+      performance.now();
+
+
+    console.log(
+      `Arbre construit en ${
+        (treeEnd - treeStart).toFixed(2)
+      } ms`
+    );
+
+
+    /*
+     * ========================================================
+     * Rendu
+     * ========================================================
+     */
+
+    const renderStart =
+      performance.now();
+
+
+    renderRoot(tree);
+
+
+    const renderEnd =
+      performance.now();
+
+
+    console.log(
+      `Rendu initial en ${
+        (renderEnd - renderStart).toFixed(2)
+      } ms`
+    );
+
+
+    console.log(
+      "Manifest prêt."
+    );
+
 
   } catch (error) {
 
@@ -291,5 +669,12 @@ async function loadManifest() {
   }
 }
 
-// Démarrage
+
+
+/*
+ * ============================================================
+ * Démarrage
+ * ============================================================
+ */
+
 loadManifest();
