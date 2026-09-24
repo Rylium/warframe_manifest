@@ -93,13 +93,22 @@
         }
     },
     "Abilities": {
-        "Warframes": {
-            "Warframes": {
-                "paths": [
-                    "/Lotus/Characters/Tenno/Accessory/Scarves/",
-                    "/Lotus/Characters/Tenno/Accessory/Armor/"
-                ]
-            }
+        "Helminth": {
+            "paths": [
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthCompanionAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthEfficiencyAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthEnergyShareAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthHackAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthProcBlockAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthShieldArmorAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthShieldsAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthSpeedAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthStatusAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthStrengthAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthStunAbility",
+                "/Lotus/Powersuits/PowersuitAbilities/HelminthTreasureAbility"
+            ]
         },
         "Necramechs": {
             "Bonewidow": {
@@ -145,6 +154,145 @@
         }
     },
     "Items": {
+        "1999": {
+            "Gifts": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/1999Wf/Gifts/"
+                ]
+            },
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/1999Wf/Resources/"
+                ]
+            }
+        },
+        "Duviri": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEndlessItem",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomSeed",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemA",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPuzzleItem",
+                    "/Lotus/Types/Gameplay/Duviri/Resource/DuviriRockItem",
+                    "/Lotus/Types/Gameplay/DuviriMITW/Resources/"
+                ]
+            },
+            "Fishing": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/Duviri/Resource/Fish/"
+                ]
+            }
+        },
+        "Cetus": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/Eidolon/Resources/"
+                ]
+            },
+            "Fishing": {
+                "paths": [
+                    "/Lotus/Types/Items/Fish/Eidolon/"
+                ]
+            },
+            "Mining": {
+                "paths": [
+                    "/Lotus/Types/Items/Gems/Eidolon/"
+                ]
+            }
+        },
+        "Fortuna": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/Venus/Resources/"
+                ]
+            },
+            "Fishing": {
+                "paths": [
+                    "/Lotus/Types/Items/Fish/Solaris/"
+                ]
+            },
+            "Mining": {
+                "paths": [
+                    "/Lotus/Types/Items/Gems/Solaris/"
+                ]
+            }
+        },
+        "Cambion Drift": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/"
+                ]
+            },
+            "Fishing": {
+                "paths": [
+                    "/Lotus/Types/Items/Fish/Deimos/"
+                ]
+            },
+            "Mining": {
+                "paths": [
+                    "/Lotus/Types/Items/Gems/Deimos/"
+                ]
+            }
+        },
+        "Necralisk": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/EntratiLab/Resources/"
+                ]
+            }
+        },
+        "Zariman": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/Zariman/Resources/"
+                ]
+            }
+        },
+        "Tau": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Gameplay/Tau/Resources/"
+                ]
+            }
+        },
+        "Railjack": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Items/RailjackMiscItems/"
+                ]
+            }
+        },
+        "Helminth": {
+            "Resources": {
+                "paths": [
+                    "/Lotus/Types/Items/InfestedFoundry/"
+                ]
+            }
+        },
+        "Boosters": {
+            "paths": [
+                "/Lotus/Types/StoreItems/Boosters/"
+            ]
+        },
+        "Consumables": {
+            "Restoratives": {
+                "paths": [
+                    "/Lotus/Types/Restoratives/Consumable/"
+                ]
+            }
+        },
         "Fish Baits": {
             "Cetus": {
                 "paths": [
@@ -166,36 +314,97 @@
                     "/Lotus/Types/Game/FishBait/Infested/"
                 ]
             }
-        },
-        "Relics": {
-            "Lith": {
-                "paths": [
-                    "/Lotus/Types/Game/Projections/T1VoidProjection"
-                ]
-            },
-            "Meso": {
-                "paths": [
-                    "/Lotus/Types/Game/Projections/T2VoidProjection"
-                ]
-            },
-            "Neo": {
-                "paths": [
-                    "/Lotus/Types/Game/Projections/T3VoidProjection"
-                ]
-            },
-            "Axi": {
-                "paths": [
-                    "/Lotus/Types/Game/Projections/T4VoidProjection"
-                ]
-            },
-            "Requiem": {
-                "paths": [
-                    "/Lotus/Types/Game/Projections/T5VoidProjection"
-                ]
-            }
         }
     },
+    "Market": {
+        "Bundles": {
+            "paths": [
+                "/Lotus/Types/StoreItems/Packages/"
+            ]
+        }
+    },
+    "Mods": {
+        "Aura": {
+            "paths": [
+                "/Lotus/Upgrades/Mods/Aura/"
+            ]
+        },
+        "Archwing": {
+            "Suits": {
+                "paths": [
+                    "/Lotus/Upgrades/Mods/Archwing/Suit/"
+                ]
+            },
+            "Arch-Melee": {
+                "paths": [
+                    "/Lotus/Upgrades/Mods/Archwing/Melee/"
+                ]
+            },
+            "Arch-Rifle": {
+                "paths": [
+                    "/Lotus/Upgrades/Mods/Archwing/Rifle/"
+                ]
+            }
+        },
+        "K-Drive": {
+            "paths": [
+                "/Lotus/Upgrades/Mods/Hoverboard/"
+            ]
+        }
+    },
+    "Relics": {
+        "Lith": {
+            "paths": [
+                "/Lotus/Types/Game/Projections/T1VoidProjection"
+            ]
+        },
+        "Meso": {
+            "paths": [
+                "/Lotus/Types/Game/Projections/T2VoidProjection"
+            ]
+        },
+        "Neo": {
+            "paths": [
+                "/Lotus/Types/Game/Projections/T3VoidProjection"
+            ]
+        },
+        "Axi": {
+            "paths": [
+                "/Lotus/Types/Game/Projections/T4VoidProjection"
+            ]
+        },
+        "Requiem": {
+            "paths": [
+                "/Lotus/Types/Game/Projections/T5VoidProjection"
+            ]
+        },
+        "Vanguard": {
+            "paths": [
+                "/Lotus/Types/Game/Projections/T4Vanguard"
+            ]
+        },
+        "paths": [
+            "/Lotus/Types/Game/Projections/T0VoidProjection"
+        ]
+    },
     "Companions": {
+        "Sentinels": {
+            "Body Types": {
+                "paths": [
+                    "/Lotus/Types/Sentinels/SentinelPowersuits/"
+                ]
+            },
+            "Precepts": {
+                "paths": [
+                    "/Lotus/Types/Sentinels/SentinelPrecepts/"
+                ]
+            },
+            "Weapons": {
+                "paths": [
+                    "/Lotus/Types/Sentinels/SentinelWeapons/"
+                ]
+            }
+        },
         "Kubrows": {
             "Body Types": {
                 "paths": [
@@ -226,7 +435,7 @@
             },
             "Colors": {
                 "paths": [
-                    "/Lotus/Types/Game/CatbrowPet/BodyTypes/"
+                    "/Lotus/Types/Game/CatbrowPet/Colors/"
                 ]
             },
             "Patterns": {
@@ -245,12 +454,22 @@
     },
     "Decorations": {
         "Orbiter": {
+            "Objects": {
+                "paths": [
+                    "/Lotus/Types/Items/ShipDecos/"
+                ]
+            },
             "Quarters Wallpapers": {
                 "paths": [
                     "/Lotus/Types/Game/QuartersWallpapers/"
                 ]
             }
         }
+    },
+    "Emotes": {
+        "paths": [
+            "/Lotus/Types/Items/Emotes/"
+        ]
     },
     "Interface": {
         "Themes": {
@@ -302,5 +521,10 @@
                 ]
             }
         }
+    },
+    "Glyphs & Avatars": {
+        "paths": [
+            "/Lotus/Types/StoreItems/AvatarImages/"
+        ]
     }
 }
