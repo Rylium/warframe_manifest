@@ -5,13 +5,16 @@ const IndexURL = "./data/warframe-manifest-index.json";
 const container = document.getElementById("container");
 
 let manifestData = [];
-const ITEM_HEIGHT = 120; // Hauteur fixe de chaque <li> en pixels
-const BUFFER_ITEMS = 5; // Éléments hors champ à charger pour un défilement fluide
+let currentIndex = 0;
+const BATCH_SIZE = 50; // Nombre d'éléments chargés à chaque palier
 
-// Conteneur <ul> unique
+// Création de la liste <ul> principale et du marqueur de défilement
 const ul = document.createElement("ul");
-ul.id = "manifest-listing";
+const sentinel = document.createElement("div");
+sentinel.id = "sentinel";
+
 container.appendChild(ul);
+container.appendChild(sentinel);
 
 // 1. Chargement du JSON
 async function loadManifest() {
@@ -20,25 +23,18 @@ async function loadManifest() {
     const data = await response.json();
     manifestData = data.Manifest || [];
 
-    // Définit la hauteur totale du <ul> pour activer la barre de défilement
-    ul.style.height = `${manifestData.length * ITEM_HEIGHT}px`;
-
-    // Écoute du défilement
-    container.addEventListener("scroll", renderVisibleItems);
-    
-    // Premier rendu
-    renderVisibleItems();
+    // Initialisation de l'observateur pour le défilement infini
+    initObserver();
   } catch (error) {
     console.error("Erreur de chargement du Manifest :", error);
   }
 }
 
-// 2. Construction d'un nœud HTML selon ton format
-function buildManifestNode(item, topOffset) {
+// 2. Construction d'un nœud HTML selon ton format strict
+function buildManifestNode(item) {
   const li = document.createElement("li");
-  li.style.top = `${topOffset}px`;
 
-  // Content <div>
+  // Div enfant
   const div = document.createElement("div");
   const spanName = document.createElement("span");
   spanName.textContent = item.uniqueName;
@@ -49,48 +45,49 @@ function buildManifestNode(item, topOffset) {
   div.appendChild(spanName);
   div.appendChild(spanTexture);
 
-  // Content <figure>
+  // Figure enfant
   const figure = document.createElement("figure");
   const img = document.createElement("img");
-  
-  // Chargement différé de l'image (lazy loading)
-  img.loading = "lazy";
   img.src = `${PublicExportURL}${item.textureLocation}`;
   img.title = item.uniqueName;
   img.alt = item.uniqueName;
+  img.loading = "lazy"; // Évite de surcharger le réseau avec les images non visibles
 
   figure.appendChild(img);
 
-  // Assemblage dans <li>
+  // Assemblage dans le <li>
   li.appendChild(div);
   li.appendChild(figure);
 
   return li;
 }
 
-// 3. Calcul et rendu dynamique des éléments visibles
-function renderVisibleItems() {
-  const scrollTop = container.scrollTop;
-  const containerHeight = container.clientHeight;
+// 3. Injection progressive des éléments par lots
+function renderNextBatch() {
+  if (currentIndex >= manifestData.length) return;
 
-  // Calcul des index d'éléments à afficher
-  let startIndex = Math.floor(scrollTop / ITEM_HEIGHT) - BUFFER_ITEMS;
-  let endIndex = Math.ceil((scrollTop + containerHeight) / ITEM_HEIGHT) + BUFFER_ITEMS;
-
-  startIndex = Math.max(0, startIndex);
-  endIndex = Math.min(manifestData.length, endIndex);
-
-  // Reconstitution du contenu du <ul> uniquement avec les éléments visibles
   const fragment = document.createDocumentFragment();
+  const nextIndex = Math.min(currentIndex + BATCH_SIZE, manifestData.length);
 
-  for (let i = startIndex; i < endIndex; i++) {
-    const item = manifestData[i];
-    const topOffset = i * ITEM_HEIGHT;
-    fragment.appendChild(buildManifestNode(item, topOffset));
+  for (let i = currentIndex; i < nextIndex; i++) {
+    fragment.appendChild(buildManifestNode(manifestData[i]));
   }
 
-  ul.innerHTML = "";
   ul.appendChild(fragment);
+  currentIndex = nextIndex;
+}
+
+// 4. Détection du bas de page via IntersectionObserver
+function initObserver() {
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+      renderNextBatch();
+    }
+  }, {
+    rootMargin: "200px" // Anticipe le chargement 200px avant d'atteindre le bas
+  });
+
+  observer.observe(sentinel);
 }
 
 // Démarrage

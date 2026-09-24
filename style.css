@@ -7,13 +7,11 @@ body {
 #container {
   display: block;
   padding: 0.4rem;
-  height: 95dvh;
-  overflow-y: auto;
   position: relative;
 }
 
 /* Listing */
-#manifest-list {
+#container ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -21,17 +19,16 @@ body {
 }
 
 /* Items */
-#manifest-list li {
+#container li {
   position: absolute;
   left: 0;
   right: 0;
-  height: 120px;
   box-sizing: border-box;
 }
 
 /* IMGs */
-#manifest-list img {
-  max-width: 120px;
+#container img {
+  width: 250px;
   height: auto;
   object-fit: contain;
   border: 1px solid #89C6E5;
