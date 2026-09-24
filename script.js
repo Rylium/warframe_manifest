@@ -7,63 +7,12 @@ const container = document.getElementById("container");
 
 
 // -----------------------------------------------------------------------------
-// Lazy loading des images
-// -----------------------------------------------------------------------------
-
-const imageObserver = new IntersectionObserver(
-    (entries, observer) => {
-
-        for (const entry of entries) {
-
-            if (!entry.isIntersecting) {
-                continue;
-            }
-
-            const img = entry.target;
-            const src = img.dataset.src;
-
-            if (src) {
-                img.src = src;
-                delete img.dataset.src;
-            }
-
-            observer.unobserve(img);
-        }
-    },
-    {
-        rootMargin: "300px 0px"
-    }
-);
-
-
-// -----------------------------------------------------------------------------
-// Construction de l'index des chemins
-// -----------------------------------------------------------------------------
-//
-// Transforme :
-//
-// "Gears": {
-//     "Accessories": {
-//         "paths": [
-//             "/Lotus/Characters/Tenno/Accessory/"
-//         ]
-//     }
-// }
-//
-// en une liste interne :
-//
-// {
-//     path: "/Lotus/Characters/Tenno/Accessory/",
-//     groups: ["Gears", "Accessories"]
-// }
-//
-// Cela rend ensuite la recherche beaucoup plus simple.
+// Construction de l'index des catégories
 // -----------------------------------------------------------------------------
 
 function buildCategoryIndex(index) {
 
     const categories = [];
-
 
     function walk(node, groups) {
 
@@ -72,25 +21,25 @@ function buildCategoryIndex(index) {
         }
 
 
-        // Les paths appartiennent à la catégorie actuelle.
+        // Paths associés à la catégorie actuelle.
 
         if (Array.isArray(node.paths)) {
 
             for (const path of node.paths) {
 
-                if (typeof path !== "string") {
+                if (typeof path !== "string" || !path) {
                     continue;
                 }
 
                 categories.push({
                     path,
-                    groups: [...groups]
+                    groups
                 });
             }
         }
 
 
-        // Parcours des sous-catégories.
+        // Sous-catégories.
 
         for (const [name, child] of Object.entries(node)) {
 
@@ -112,47 +61,35 @@ function buildCategoryIndex(index) {
 
     walk(index, []);
 
+    /*
+     * Les chemins les plus longs sont placés en premier.
+     *
+     * Ainsi, on peut arrêter la recherche dès qu'une correspondance
+     * est trouvée.
+     */
+
+    categories.sort(
+        (a, b) => b.path.length - a.path.length
+    );
+
     return categories;
 }
 
 
 // -----------------------------------------------------------------------------
-// Recherche de la catégorie d'un élément
-// -----------------------------------------------------------------------------
-//
-// Si plusieurs chemins correspondent, le chemin le plus long gagne.
-//
-// Exemple :
-//
-// /Lotus/Characters/
-// /Lotus/Characters/Tenno/
-// /Lotus/Characters/Tenno/Accessory/
-//
-// Pour un élément sous Accessory, la dernière règle est utilisée.
+// Recherche d'une catégorie
 // -----------------------------------------------------------------------------
 
 function findCategory(uniqueName, categories) {
 
-    let bestMatch = null;
-    let bestLength = -1;
-
-
     for (const category of categories) {
 
-        if (!uniqueName.startsWith(category.path)) {
-            continue;
-        }
-
-
-        if (category.path.length > bestLength) {
-
-            bestMatch = category;
-            bestLength = category.path.length;
+        if (uniqueName.startsWith(category.path)) {
+            return category;
         }
     }
 
-
-    return bestMatch;
+    return null;
 }
 
 
@@ -160,13 +97,13 @@ function findCategory(uniqueName, categories) {
 // Création d'une entrée
 // -----------------------------------------------------------------------------
 
-function createManifestItem(item, category = null) {
+function createManifestItem(item, category) {
 
     const li = document.createElement("li");
 
 
     // -------------------------------------------------------------------------
-    // Partie gauche
+    // Informations
     // -------------------------------------------------------------------------
 
     const info = document.createElement("div");
@@ -180,6 +117,10 @@ function createManifestItem(item, category = null) {
     const textureLocation = document.createElement("span");
 
     textureLocation.textContent = item.textureLocation;
+
+
+    info.appendChild(uniqueName);
+    info.appendChild(textureLocation);
 
 
     // -------------------------------------------------------------------------
@@ -198,34 +139,17 @@ function createManifestItem(item, category = null) {
 
 
     // -------------------------------------------------------------------------
-    // URL de l'image
-    // -------------------------------------------------------------------------
-
-    const imageURL =
-        PublicExportURL + item.textureLocation;
-
-
-    // -------------------------------------------------------------------------
-    // Bouton d'ouverture
+    // Bouton
     // -------------------------------------------------------------------------
 
     const openButton = document.createElement("button");
 
     openButton.type = "button";
+    openButton.dataset.imageUrl =
+        PublicExportURL + item.textureLocation;
+
     openButton.textContent = "Ouvrir l'image";
 
-    openButton.addEventListener("click", () => {
-
-        window.open(
-            imageURL,
-            "_blank",
-            "noopener,noreferrer"
-        );
-    });
-
-
-    info.appendChild(uniqueName);
-    info.appendChild(textureLocation);
     info.appendChild(openButton);
 
 
@@ -237,25 +161,34 @@ function createManifestItem(item, category = null) {
 
     const img = document.createElement("img");
 
-    img.dataset.src = imageURL;
+    const imageURL =
+        PublicExportURL + item.textureLocation;
+
+    img.src = imageURL;
     img.alt = item.uniqueName;
 
-    img.decoding = "async";
+    /*
+     * Le navigateur gère lui-même le chargement différé.
+     *
+     * Contrairement à un IntersectionObserver qui doit maintenir
+     * une liste de milliers de cibles, loading="lazy" est géré
+     * directement par le moteur du navigateur.
+     */
+
     img.loading = "lazy";
+    img.decoding = "async";
     img.fetchPriority = "low";
 
-    imageObserver.observe(img);
 
     figure.appendChild(img);
 
 
     // -------------------------------------------------------------------------
-    // Assemblage du <li>
+    // Assemblage
     // -------------------------------------------------------------------------
 
     li.appendChild(info);
     li.appendChild(figure);
-
 
     return li;
 }
@@ -269,12 +202,13 @@ function renderManifest(manifest, categories) {
 
     const list = document.createElement("ul");
 
-    const categorized = [];
+    const fragment = document.createDocumentFragment();
+
     const uncategorized = [];
 
 
     // -------------------------------------------------------------------------
-    // Catégorisation
+    // Premier passage : éléments catégorisés
     // -------------------------------------------------------------------------
 
     for (const item of manifest) {
@@ -287,10 +221,12 @@ function renderManifest(manifest, categories) {
 
         if (category) {
 
-            categorized.push({
-                item,
-                category
-            });
+            fragment.appendChild(
+                createManifestItem(
+                    item,
+                    category
+                )
+            );
 
         } else {
 
@@ -300,34 +236,23 @@ function renderManifest(manifest, categories) {
 
 
     // -------------------------------------------------------------------------
-    // Construction du DOM
+    // Deuxième passage : éléments non catégorisés
     // -------------------------------------------------------------------------
 
-    const fragment = document.createDocumentFragment();
-
-
-    // Catégorisés en premier.
-
-    for (const entry of categorized) {
+    for (const item of uncategorized) {
 
         fragment.appendChild(
             createManifestItem(
-                entry.item,
-                entry.category
+                item,
+                null
             )
         );
     }
 
 
-    // Non catégorisés ensuite.
-
-    for (const item of uncategorized) {
-
-        fragment.appendChild(
-            createManifestItem(item)
-        );
-    }
-
+    // -------------------------------------------------------------------------
+    // Une seule insertion dans le DOM
+    // -------------------------------------------------------------------------
 
     list.appendChild(fragment);
 
@@ -335,19 +260,44 @@ function renderManifest(manifest, categories) {
 
 
     // -------------------------------------------------------------------------
+    // Ouverture des images
+    // -------------------------------------------------------------------------
+    //
+    // Un seul listener pour tous les boutons.
+    //
+
+    list.addEventListener("click", event => {
+
+        const button = event.target.closest(
+            "button[data-image-url]"
+        );
+
+        if (!button) {
+            return;
+        }
+
+        window.open(
+            button.dataset.imageUrl,
+            "_blank",
+            "noopener,noreferrer"
+        );
+    });
+
+
+    // -------------------------------------------------------------------------
     // Statistiques
     // -------------------------------------------------------------------------
 
     console.log(
-        `[Manifest] ${categorized.length} élément(s) catégorisé(s).`
+        `[Manifest] ${manifest.length} élément(s) total.`
+    );
+
+    console.log(
+        `[Manifest] ${manifest.length - uncategorized.length} élément(s) catégorisé(s).`
     );
 
     console.log(
         `[Manifest] ${uncategorized.length} élément(s) non catégorisé(s).`
-    );
-
-    console.log(
-        `[Manifest] ${manifest.length} élément(s) au total.`
     );
 
 
@@ -385,7 +335,7 @@ async function loadManifest() {
 
 
         // ---------------------------------------------------------------------
-        // Chargement des deux fichiers en parallèle
+        // Chargement parallèle des deux JSON
         // ---------------------------------------------------------------------
 
         const [
@@ -414,7 +364,7 @@ async function loadManifest() {
 
 
         // ---------------------------------------------------------------------
-        // Parsing JSON
+        // Parsing parallèle
         // ---------------------------------------------------------------------
 
         const [
@@ -429,26 +379,33 @@ async function loadManifest() {
         const manifest = manifestData.Manifest;
 
 
+        const loadEnd = performance.now();
+
+
+        console.log(
+            `[Manifest] JSON chargés en ${(loadEnd - start).toFixed(2)} ms`
+        );
+
+
         // ---------------------------------------------------------------------
         // Construction de l'index
         // ---------------------------------------------------------------------
 
-        const categories = buildCategoryIndex(index);
+        const indexStart = performance.now();
+
+        const categories =
+            buildCategoryIndex(index);
 
 
-        const end = performance.now();
+        const indexEnd = performance.now();
 
-
-        console.log(
-            `[Manifest] Données chargées en ${(end - start).toFixed(2)} ms`
-        );
-
-        console.log(
-            `[Manifest] ${manifest.length} entrée(s) dans le manifest.`
-        );
 
         console.log(
             `[Manifest] ${categories.length} règle(s) de catégorisation.`
+        );
+
+        console.log(
+            `[Manifest] Index construit en ${(indexEnd - indexStart).toFixed(2)} ms`
         );
 
 
@@ -469,11 +426,11 @@ async function loadManifest() {
 
 
         console.log(
-            `[Manifest] Rendu effectué en ${(renderEnd - renderStart).toFixed(2)} ms`
+            `[Manifest] DOM construit en ${(renderEnd - renderStart).toFixed(2)} ms`
         );
 
         console.log(
-            "[Manifest] Prêt."
+            `[Manifest] Prêt. Temps total : ${(renderEnd - start).toFixed(2)} ms`
         );
 
     } catch (error) {
