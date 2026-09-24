@@ -1,40 +1,51 @@
+body {
+  color: #fefefe;
+  background-color: #3c3c3c;
+}
+
 #container {
-    display: block;
-  }
-  
-  .manifest-group {
-    display: block;
-  }
-  
-  .manifest-group > details > summary {
-    cursor: pointer;
-  }
-  
-  .manifest-group h2 {
-    display: inline;
-    margin: 0;
-  }
-  
-  .manifest-group-content {
-    display: block;
-  }
-  
-  .manifest-group-content > ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-  }
-  
-  .manifest-group-content > ul > li {
-    display: block;
-  }
-  
-  .manifest-group-content img {
-    width: 250px;
-    height: auto;
-    object-fit: contain;
-  }
+  display: block;
+  padding: 0.4rem;
+}
+
+.manifest-group {
+  display: block;
+  background-color: #05253787;
+  border: 1px solid #5f5f5f;
+  padding: 0.2rem 0.6rem;
+}
+
+.manifest-group>details>summary {
+  cursor: pointer;
+}
+
+.manifest-group h2 {
+  display: inline;
+  margin: 0;
+}
+
+.manifest-group-content {
+  display: block;
+  padding: 0.5rem 1.2rem;
+}
+
+.manifest-group-content>ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.manifest-group-content>ul>li {
+  display: block;
+}
+
+.manifest-group-content img {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+  border: 1px solid #89C6E5;
+}
