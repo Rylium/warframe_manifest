@@ -1,0 +1,33 @@
+{
+    "Gears": {
+        "Accessories": {
+            "paths": [
+                "/Lotus/Characters/Tenno/Accessory/Scarves/",
+                "/Lotus/Characters/Tenno/Accessory/Armor/"
+            ]
+        },
+        "Weapons": {
+            "paths": [
+                "/Lotus/Types/Weapons/"
+            ]
+        },
+        "Warframes": {
+            "paths": [
+                "/Lotus/Powersuits/"
+            ]
+        }
+    },
+
+    "Recipes": {
+        "Archwing": {
+            "paths": [
+                "/Lotus/Types/Recipes/ArchwingRecipes/"
+            ]
+        },
+        "Weapons": {
+            "paths": [
+                "/Lotus/Types/Recipes/WeaponRecipes/"
+            ]
+        }
+    }
+}
