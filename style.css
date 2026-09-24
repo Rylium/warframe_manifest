@@ -12,7 +12,8 @@ body {
   margin: 0 auto;
 }
 
-/* --- STRUCTURE NIVEAUX DE "NEST" --- */
+/* --- STRUCTURE DYNAMIQUE --- */
+
 /* Niveau 1 : Familles principales (Gears, Recipes...) */
 ul[data-nest="1"] {
   list-style: none;
@@ -23,7 +24,7 @@ ul[data-nest="1"] {
   gap: 32px;
 }
 
-ul[data-nest="1"]>li>h2 {
+ul[data-nest="1"] > li > h2 {
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -34,45 +35,43 @@ ul[data-nest="1"]>li>h2 {
   margin-top: 0;
 }
 
-/* Niveau 2 : Sous-familles (Accessories, Weapons...) */
-ul[data-nest="2"] {
+/* Niveaux intermédiaires (Sous-familles, peu importe la profondeur) */
+ul:not([data-nest="1"]):not(.items-list) {
   list-style: none;
   padding-left: 16px;
-  margin: 16px 0;
+  margin: 12px 0;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
-ul[data-nest="2"]>li>h3 {
-  font-size: 1.2rem;
+/* Titres des sous-familles (h3, h4, h5...) */
+ul:not([data-nest="1"]):not(.items-list) > li > :is(h3, h4, h5, h6) {
+  font-size: 1.1rem;
   letter-spacing: 1.5px;
-  color: #7000ff;
   color: #a855f7;
   text-shadow: 0 0 8px rgba(168, 85, 247, 0.4);
-  margin: 0 0 12px 0;
+  margin: 8px 0;
 }
 
-/* Niveau 3 : Liste finale d'items (GRILLE 2 COLONNES) */
-ul[data-nest="3"] {
+/* --- LISTE FINALE D'ITEMS (GRILLE 2 COLONNES) --- */
+ul.items-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 8px 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* 2 colonnes */
+  grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
   gap: 12px;
 }
 
-/* On repasse sur 1 seule colonne sur petit écran si besoin */
 @media (max-width: 768px) {
-  ul[data-nest="3"] {
+  ul.items-list {
     grid-template-columns: 1fr;
   }
 }
 
 /* --- CARTE ITEM (STYLE HOLO / FUTURISTE) --- */
-ul[data-nest="3"]>li {
+ul.items-list > li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -90,7 +89,7 @@ ul[data-nest="3"]>li {
 }
 
 /* Effet de brillance / survol Holo */
-ul[data-nest="3"]>li::before {
+ul.items-list > li::before {
   content: '';
   position: absolute;
   top: 0;
@@ -103,18 +102,18 @@ ul[data-nest="3"]>li::before {
   transition: opacity 0.25s ease;
 }
 
-ul[data-nest="3"]>li:hover {
+ul.items-list > li:hover {
   border-color: rgba(0, 240, 255, 0.6);
   box-shadow: 0 0 15px rgba(0, 240, 255, 0.25), inset 0 0 15px rgba(0, 240, 255, 0.1);
   transform: translateY(-2px);
 }
 
-ul[data-nest="3"]>li:hover::before {
+ul.items-list > li:hover::before {
   opacity: 1;
 }
 
 /* Div texte (gauche, 2 lignes) */
-ul[data-nest="3"]>li>div {
+ul.items-list > li > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,7 +123,7 @@ ul[data-nest="3"]>li>div {
 }
 
 /* Spans (uniqueName et textureLocation) */
-ul[data-nest="3"]>li>div>span {
+ul.items-list > li > div > span {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -132,21 +131,21 @@ ul[data-nest="3"]>li>div>span {
 }
 
 /* Ligne 1 : uniqueName */
-ul[data-nest="3"]>li>div>span:first-child {
+ul.items-list > li > div > span:first-child {
   font-size: 0.85rem;
   color: #e2f1ff;
   font-weight: 600;
 }
 
 /* Ligne 2 : textureLocation */
-ul[data-nest="3"]>li>div>span:last-child {
+ul.items-list > li > div > span:last-child {
   font-size: 0.72rem;
   color: #00b8d4;
   opacity: 0.8;
 }
 
 /* Figure (droite, prend toute la hauteur des 2 lignes) */
-ul[data-nest="3"]>li>figure {
+ul.items-list > li > figure {
   margin: 0;
   padding: 0;
   display: flex;
@@ -161,7 +160,7 @@ ul[data-nest="3"]>li>figure {
 }
 
 /* Image */
-ul[data-nest="3"]>li>figure>img {
+ul.items-list > li > figure > img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;

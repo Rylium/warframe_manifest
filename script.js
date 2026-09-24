@@ -94,13 +94,15 @@ function renderTree(nodes, parentElement, depth) {
     const li = document.createElement("li");
 
     if (Array.isArray(nodes[key])) {
-      // Nous sommes arrivés aux items (feuilles de l'arbre)
+      // Titre du groupe final
       const title = document.createElement("h" + Math.min(depth + 1, 6));
       title.textContent = key;
       li.appendChild(title);
 
+      // Liste finale des items -> On ajoute la classe 'items-list'
       const itemsUl = document.createElement("ul");
       itemsUl.setAttribute("data-nest", depth + 1);
+      itemsUl.classList.add("items-list");
 
       const fragment = document.createDocumentFragment();
       nodes[key].forEach(item => {
@@ -110,7 +112,6 @@ function renderTree(nodes, parentElement, depth) {
       itemsUl.appendChild(fragment);
       li.appendChild(itemsUl);
     } else {
-      // C'est encore une sous-catégorie
       const title = document.createElement("h" + Math.min(depth + 1, 6));
       title.textContent = key;
       li.appendChild(title);
