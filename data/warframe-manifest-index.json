@@ -532,6 +532,13 @@
             "paths": [
                 "/Lotus/Upgrades/Skins/Sigils/"
             ]
+        },
+        "Emblems": {
+            "paths": [
+                "/Lotus/Upgrades/Skins/Clan/",
+                "/Lotus/Upgrades/Skins/Halloween/Halloween2024DagathBadgeItem",
+                "/Lotus/Upgrades/Skins/Promo/Seasonal/DogDays2025BadgeItem"
+            ]
         }
     }
 }
