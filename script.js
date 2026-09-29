@@ -10,7 +10,7 @@ const PublicExportURL = "https://content.warframe.com/PublicExport";
 const ManifestURL = "./data/ExportManifest.json";
 const IndexURL = "./data/warframe-manifest-index.json";
 
-const container = document.getElementById("container");
+const container = document.getElementById("manifestData");
 
 // -- Load JSON
 async function loadManifest() {
