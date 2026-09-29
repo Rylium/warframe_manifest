@@ -10,8 +10,6 @@ const PublicExportURL = "https://content.warframe.com/PublicExport";
 const ManifestURL = "./data/ExportManifest.json";
 const IndexURL = "./data/warframe-manifest-index.json";
 
-const container = document.getElementById("manifestData");
-
 // -- Load JSON
 async function loadManifest() {
   try {
@@ -171,5 +169,13 @@ function buildManifestNode(item) {
   return li;
 }
 
-// Démarrage
-loadManifest();
+// Attendre que le DOM soit entièrement disponible avant d'exécuter le script
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("manifestData");
+  
+  if (container) {
+    loadManifest(container);
+  } else {
+    console.error("L'élément #manifestData n'a pas été trouvé dans le DOM.");
+  }
+});
