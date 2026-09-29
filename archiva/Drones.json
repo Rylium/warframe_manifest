@@ -1,0 +1,112 @@
+{
+    "Drones": [
+        {
+            "uniqueName": "/Lotus/Types/Ship/AdvancedResourceDrone",
+            "name": "/Lotus/Types/Ship/AdvancedResourceDrone#name",
+            "description": "/Lotus/Types/Ship/AdvancedResourceDrone#desc",
+            "binCount": 1,
+            "binCapacity": 2,
+            "fillRate": 4,
+            "durability": 100,
+            "repairRate": 10,
+            "codexSecret": false,
+            "capacityMultiplier": [
+                8,
+                6,
+                4,
+                1
+            ],
+            "image": "/Lotus/Interface/Icons/StoreIcons/Resources/ResourceDrones/ResourceDronePrime.png!00_VrwXjPBwgDQaODe5nJ7keA"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Ship/AdvancedUcResourceDrone",
+            "name": "/Lotus/Types/Ship/AdvancedUcResourceDrone#name",
+            "description": "/Lotus/Types/Ship/AdvancedUcResourceDrone#desc",
+            "binCount": 1,
+            "binCapacity": 2,
+            "fillRate": 8,
+            "durability": 200,
+            "repairRate": 20,
+            "codexSecret": false,
+            "capacityMultiplier": [
+                8,
+                6,
+                4,
+                1
+            ],
+            "image": "/Lotus/Interface/Icons/StoreIcons/Resources/ResourceDrones/ResourceDroneUcPrime.png!00_-GcafPsGL8osUiDuq7EUCw"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Ship/BasicResourceDrone",
+            "name": "/Lotus/Types/Ship/BasicResourceDrone#name",
+            "description": "/Lotus/Types/Ship/BasicResourceDrone#desc",
+            "binCount": 1,
+            "binCapacity": 1,
+            "fillRate": 4,
+            "durability": 100,
+            "repairRate": 10,
+            "codexSecret": false,
+            "capacityMultiplier": [
+                8,
+                6,
+                4,
+                1
+            ],
+            "image": "/Lotus/Interface/Icons/StoreIcons/Resources/ResourceDrones/ResourceDrone.png!00_+icDWCTqqlezksLIfQBNlg"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Ship/BasicUcResourceDrone",
+            "name": "/Lotus/Types/Ship/BasicUcResourceDrone#name",
+            "description": "/Lotus/Types/Ship/BasicUcResourceDrone#desc",
+            "binCount": 1,
+            "binCapacity": 1,
+            "fillRate": 8,
+            "durability": 200,
+            "repairRate": 20,
+            "codexSecret": false,
+            "capacityMultiplier": [
+                8,
+                6,
+                4,
+                1
+            ],
+            "image": "/Lotus/Interface/Icons/StoreIcons/Resources/ResourceDrones/ResourceDroneUc.png!00_3HU6m2Mrd-dD2yQflJwvZw"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Ship/LandscapeTrapLight",
+            "name": "/Lotus/Types/Ship/LandscapeTrapLight#name",
+            "description": "/Lotus/Types/Ship/LandscapeTrapLight#desc",
+            "binCount": 1,
+            "binCapacity": 20,
+            "fillRate": 0.1,
+            "durability": 100,
+            "repairRate": 0,
+            "codexSecret": false,
+            "capacityMultiplier": [
+                8,
+                4,
+                1,
+                1
+            ],
+            "image": "/Lotus/Interface/Icons/StoreIcons/Resources/ResourceDrones/ResourceDrone.png!00_+icDWCTqqlezksLIfQBNlg"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Ship/VoidTraderResourceDrone",
+            "name": "/Lotus/Types/Ship/VoidTraderResourceDrone#name",
+            "description": "/Lotus/Types/Ship/VoidTraderResourceDrone#desc",
+            "binCount": 1,
+            "binCapacity": 1,
+            "fillRate": 8,
+            "durability": 200,
+            "repairRate": 20,
+            "codexSecret": false,
+            "capacityMultiplier": [
+                8,
+                6,
+                4,
+                1
+            ],
+            "image": "/Lotus/Interface/Icons/StoreIcons/Resources/ResourceDrones/ResourceDronePrisma.png!00_gVHQ9kIVXzPOoZNVK7eizQ"
+        }
+    ]
+}

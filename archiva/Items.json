@@ -1,0 +1,412 @@
+{
+    "FusionBundles": [
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/DeepSpaceCommonAvionicsEndo",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/DeepSpaceCommonAvionicsEndo#desc",
+            "codexSecret": false,
+            "fusionPoints": 150,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndoSmall.png!00_9ejLdPdp0m6CDMCP3jY-9A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/DeepSpaceUncommonAvionicsEndo",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/DeepSpaceUncommonAvionicsEndo#desc",
+            "codexSecret": false,
+            "fusionPoints": 300,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndoSmall.png!00_9ejLdPdp0m6CDMCP3jY-9A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/EarthCommonAvionicsEndo",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/EarthCommonAvionicsEndo#desc",
+            "codexSecret": false,
+            "fusionPoints": 50,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndoSmall.png!00_9ejLdPdp0m6CDMCP3jY-9A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/EarthUncommonAvionicsEndo",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/EarthUncommonAvionicsEndo#desc",
+            "codexSecret": false,
+            "fusionPoints": 100,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndoSmall.png!00_9ejLdPdp0m6CDMCP3jY-9A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/MarketTier1CrewShipFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/MarketTier1CrewShipFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 100,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndoSmall.png!00_9ejLdPdp0m6CDMCP3jY-9A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/MarketTier2CrewShipFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/MarketTier2CrewShipFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 400,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndoMedium.png!00_xPpmf5GtyMeOWJELMmUnlA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/MarketTier3CrewShipFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/MarketTier3CrewShipFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 1000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndo.png!00_oivhkBSI0iyavGZ2eIUKUw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/SaturnCommonAvionicsEndo",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/SaturnCommonAvionicsEndo#desc",
+            "codexSecret": false,
+            "fusionPoints": 100,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndoSmall.png!00_9ejLdPdp0m6CDMCP3jY-9A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/SaturnUncommonAvionicsEndo",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CrewShipFusionBundles/SaturnUncommonAvionicsEndo#desc",
+            "codexSecret": false,
+            "fusionPoints": 200,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndoSmall.png!00_9ejLdPdp0m6CDMCP3jY-9A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/AlertFusionBundleLarge",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/AlertFusionBundleLarge#desc",
+            "codexSecret": false,
+            "fusionPoints": 150,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/AlertFusionBundleMedium",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/AlertFusionBundleMedium#desc",
+            "codexSecret": false,
+            "fusionPoints": 100,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/AlertFusionBundleSmall",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/AlertFusionBundleSmall#desc",
+            "codexSecret": false,
+            "fusionPoints": 80,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/AlertRewardFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/AlertRewardFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 235,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierAEndoCommon",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierAEndoCommon#desc",
+            "codexSecret": false,
+            "fusionPoints": 15,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierAEndoUncommon",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierAEndoUncommon#desc",
+            "codexSecret": false,
+            "fusionPoints": 50,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierBEndoCommon",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierBEndoCommon#desc",
+            "codexSecret": false,
+            "fusionPoints": 15,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierBEndoUncommon",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierBEndoUncommon#desc",
+            "codexSecret": false,
+            "fusionPoints": 50,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierCEndoUncommon",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierCEndoUncommon#desc",
+            "codexSecret": false,
+            "fusionPoints": 50,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierDEndoUncommon",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CetusTierDEndoUncommon#desc",
+            "codexSecret": false,
+            "fusionPoints": 50,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CircuitRepeatableNormalFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CircuitRepeatableNormalFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 250,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CircuitRepeatableSteelPathFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CircuitRepeatableSteelPathFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 1000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CircuitSilverNormalFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CircuitSilverNormalFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 500,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CircuitSilverSteelPathFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CircuitSilverSteelPathFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 6000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 15,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/EliteAlertFusionBundleLarge",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/EliteAlertFusionBundleLarge#desc",
+            "codexSecret": false,
+            "fusionPoints": 1500,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/EliteAlertFusionBundleMedium",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/EliteAlertFusionBundleMedium#desc",
+            "codexSecret": false,
+            "fusionPoints": 1200,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/EliteAlertFusionBundleSmall",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/EliteAlertFusionBundleSmall#desc",
+            "codexSecret": false,
+            "fusionPoints": 900,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/EndoJackpotBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/EndoJackpotBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 15000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/EvergreenLoginRewardFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/EvergreenLoginRewardFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 30000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/JunctionRewardNPFusionBundleA",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/JunctionRewardNPFusionBundleA#desc",
+            "codexSecret": false,
+            "fusionPoints": 2500,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/JunctionRewardNPFusionBundleB",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/JunctionRewardNPFusionBundleB#desc",
+            "codexSecret": false,
+            "fusionPoints": 750,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/LoginRewardFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/LoginRewardFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 1000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/MPVDualPackFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/MPVDualPackFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 50000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/MPVSinglePackFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/MPVSinglePackFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 10000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/MarketTier1FusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/MarketTier1FusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 100,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/EndoBundleSmall.png!00_NtBNoBI04l7PEL+ljCL1XA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/MarketTier2FusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/MarketTier2FusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 400,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/EndoBundleMedium.png!00_Rd300V2wdwWnfQ9SCNSBVg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/MarketTier3FusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/MarketTier3FusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 1000,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/EndoBundleLarge.png!00_XLmY+xWejJQOKfFK263NTQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/NightwatchFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/NightwatchFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 1500,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/PurgatoryBlackTokenFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/PurgatoryBlackTokenFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 600,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/EndoBundleLarge.png!00_XLmY+xWejJQOKfFK263NTQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/PurgatoryBlueTokenFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/PurgatoryBlueTokenFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 200,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/EndoBundleSmall.png!00_NtBNoBI04l7PEL+ljCL1XA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/PurgatoryGoldTokenFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/PurgatoryGoldTokenFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 400,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/EndoBundleMedium.png!00_Rd300V2wdwWnfQ9SCNSBVg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierALarge",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierALarge#desc",
+            "codexSecret": false,
+            "fusionPoints": 150,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierASmall",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierASmall#desc",
+            "codexSecret": false,
+            "fusionPoints": 100,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierBLarge",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierBLarge#desc",
+            "codexSecret": false,
+            "fusionPoints": 300,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierBSmall",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierBSmall#desc",
+            "codexSecret": false,
+            "fusionPoints": 200,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierCLarge",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierCLarge#desc",
+            "codexSecret": false,
+            "fusionPoints": 450,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierCSmall",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierCSmall#desc",
+            "codexSecret": false,
+            "fusionPoints": 300,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierDLarge",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierDLarge#desc",
+            "codexSecret": false,
+            "fusionPoints": 600,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierDSmall",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RailjackEndoTierDSmall#desc",
+            "codexSecret": false,
+            "fusionPoints": 400,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 80,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+            "description": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle#desc",
+            "codexSecret": false,
+            "fusionPoints": 50,
+            "name": "Lotus/Types/Items/Currency/Endo#name",
+            "image": "/Lotus/Interface/Icons/StoreIcons/Currency/EndoIconRenderLarge.png!00_0Pe5xT9UxQ-aGRdJU2BZtg"
+        }
+    ]
+}

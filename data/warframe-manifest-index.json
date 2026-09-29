@@ -522,9 +522,16 @@
             }
         }
     },
-    "Glyphs & Avatars": {
-        "paths": [
-            "/Lotus/Types/StoreItems/AvatarImages/"
-        ]
+    "Glyphs & Sigils": {
+        "Glyphs": {
+            "paths": [
+                "/Lotus/Types/StoreItems/AvatarImages/"
+            ]
+        },
+        "Sigils": {
+            "paths": [
+                "/Lotus/Upgrades/Skins/Sigils/"
+            ]
+        }
     }
 }

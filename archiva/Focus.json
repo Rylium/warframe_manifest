@@ -1,0 +1,2671 @@
+{
+    "Focus": [
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/AttackEfficiencyFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/AttackEfficiencyFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/AttackEfficiencyFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/AttackEfficiencyFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/AttackEfficiencyFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/AttackEfficiencyFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon132.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/BlastChargeFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/BlastChargeFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/BlastChargeFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/BlastChargeFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/BlastChargeFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/BlastChargeFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon120.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/BlastFireballFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/BlastFireballFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/BlastFireballFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/BlastFireballFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/BlastFireballFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/BlastFireballFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon121.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/CloakAttackChargeFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/CloakAttackChargeFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/CloakAttackChargeFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/CloakAttackChargeFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/CloakAttackChargeFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/CloakAttackChargeFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon04.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/CloakBlindFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/CloakBlindFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/CloakBlindFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/CloakBlindFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/CloakBlindFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/CloakBlindFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon132.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/ConsecutiveEfficienyUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/ConsecutiveEfficienyUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/ConsecutiveEfficienyUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/ConsecutiveEfficienyUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/ConsecutiveEfficienyUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/ConsecutiveEfficienyUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon121.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/ConsecutivePowerUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/ConsecutivePowerUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/ConsecutivePowerUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/ConsecutivePowerUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/ConsecutivePowerUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/ConsecutivePowerUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon120.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/DashDamageFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/DashDamageFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashDamageFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashDamageFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashDamageFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashDamageFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon117.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade#r_5_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon116.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/GhostWaveUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/GhostWaveUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/GhostWaveUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/GhostWaveUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/GhostWaveUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/GhostWaveUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon116.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Active/GhostlyTouchUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Active/GhostlyTouchUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/GhostlyTouchUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/GhostlyTouchUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/GhostlyTouchUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Active/GhostlyTouchUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon117.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Residual/ElementalDamageFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Residual/ElementalDamageFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/ElementalDamageFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/ElementalDamageFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/ElementalDamageFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/ElementalDamageFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon10.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Residual/PhysicalDamageFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Residual/PhysicalDamageFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/PhysicalDamageFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/PhysicalDamageFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/PhysicalDamageFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/PhysicalDamageFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon12.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Residual/PowerSnapFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Residual/PowerSnapFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/PowerSnapFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/PowerSnapFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/PowerSnapFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Residual/PowerSnapFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon102.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Stats/MoreAmmoFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Stats/MoreAmmoFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Stats/MoreAmmoFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Stats/MoreAmmoFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Stats/MoreAmmoFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Stats/MoreAmmoFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon13.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Stats/RegenAmmoFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Stats/RegenAmmoFocusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Stats/RegenAmmoFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Stats/RegenAmmoFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Stats/RegenAmmoFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Stats/RegenAmmoFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon14.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/SurgingStorm.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/Downpour.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/ThunderClap.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/RuinousPower.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateUpgrade#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/MaduraiUltimate.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon15.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade#r_5_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon16.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/CloakHealFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/CloakHealFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakHealFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakHealFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakHealFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakHealFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon98.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/CloakHealOthersFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/CloakHealOthersFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakHealOthersFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakHealOthersFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakHealOthersFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakHealOthersFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon101.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/CloakShieldFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/CloakShieldFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakShieldFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakShieldFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakShieldFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/CloakShieldFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon18.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/DashImmunityFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/DashImmunityFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DashImmunityFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DashImmunityFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DashImmunityFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DashImmunityFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon29.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/DashShockwaveFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/DashShockwaveFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DashShockwaveFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DashShockwaveFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DashShockwaveFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DashShockwaveFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon21.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldBreakFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldBreakFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldBreakFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldBreakFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldBreakFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldBreakFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon135.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon133.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/SonicDissipationUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Active/SonicDissipationUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/SonicDissipationUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/SonicDissipationUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/SonicDissipationUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Active/SonicDissipationUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon43.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Residual/InstantReviveFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Residual/InstantReviveFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Residual/InstantReviveFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Residual/InstantReviveFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Residual/InstantReviveFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Residual/InstantReviveFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon22.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Residual/RadialXpFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Residual/RadialXpFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Residual/RadialXpFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Residual/RadialXpFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Residual/RadialXpFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Residual/RadialXpFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon30.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Stats/HealthMaxFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Stats/HealthMaxFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Stats/HealthMaxFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Stats/HealthMaxFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Stats/HealthMaxFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Stats/HealthMaxFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon31.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Stats/HealthRegenFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Stats/HealthRegenFocusUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Stats/HealthRegenFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Stats/HealthRegenFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Stats/HealthRegenFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Stats/HealthRegenFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon33.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/EndlessDeluge.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/PowerfulVortex.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/UndyingCurrents.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/ErodingRapids.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateUpgrade#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/VazarinUltimate.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon34.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/BlastSlowFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/BlastSlowFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/BlastSlowFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/BlastSlowFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/BlastSlowFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/BlastSlowFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon77.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/CloakPullFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/CloakPullFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/CloakPullFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/CloakPullFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/CloakPullFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/CloakPullFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon82.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/CloakStaticFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/CloakStaticFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/CloakStaticFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/CloakStaticFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/CloakStaticFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/CloakStaticFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon77.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/DashBubbleFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/DashBubbleFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DashBubbleFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DashBubbleFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DashBubbleFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DashBubbleFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon37.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/DashElectricityFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/DashElectricityFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DashElectricityFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DashElectricityFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DashElectricityFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DashElectricityFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon39.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/DisarmedEnergyUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/DisarmedEnergyUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DisarmedEnergyUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DisarmedEnergyUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DisarmedEnergyUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DisarmedEnergyUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon74.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/DisarmingProjectionUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/DisarmingProjectionUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DisarmingProjectionUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DisarmingProjectionUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DisarmingProjectionUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/DisarmingProjectionUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon78.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/PowerFieldFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Active/PowerFieldFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/PowerFieldFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/PowerFieldFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/PowerFieldFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Active/PowerFieldFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon109.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Residual/EnergyOverTimeFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Residual/EnergyOverTimeFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/EnergyOverTimeFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/EnergyOverTimeFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/EnergyOverTimeFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/EnergyOverTimeFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon44.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Residual/FreeAbilityCastsFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Residual/FreeAbilityCastsFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/FreeAbilityCastsFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/FreeAbilityCastsFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/FreeAbilityCastsFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/FreeAbilityCastsFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon89.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Residual/SlowHeadshotDamageFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Residual/SlowHeadshotDamageFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/SlowHeadshotDamageFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/SlowHeadshotDamageFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/SlowHeadshotDamageFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Residual/SlowHeadshotDamageFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon82.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Stats/EnergyPoolFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Stats/EnergyPoolFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Stats/EnergyPoolFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Stats/EnergyPoolFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Stats/EnergyPoolFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Stats/EnergyPoolFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon46.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Stats/EnergyRestoreFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Stats/EnergyRestoreFocusUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Stats/EnergyRestoreFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Stats/EnergyRestoreFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Stats/EnergyRestoreFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Stats/EnergyRestoreFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon47.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/BrilliantInsight.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/PowerKnowledge.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/PrismaticBeam.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/BoundlessEnergy.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateUpgrade#name",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/ZenurikUltimate.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon50.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade#r_5_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon52.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/CloakMeleeCritFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/CloakMeleeCritFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/CloakMeleeCritFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/CloakMeleeCritFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/CloakMeleeCritFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/CloakMeleeCritFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon53.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/CloakRevealFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/CloakRevealFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/CloakRevealFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/CloakRevealFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/CloakRevealFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/CloakRevealFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon55.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/ComboAmpDamageFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/ComboAmpDamageFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ComboAmpDamageFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ComboAmpDamageFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ComboAmpDamageFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ComboAmpDamageFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon45.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/DashFinisherFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/DashFinisherFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashFinisherFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashFinisherFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashFinisherFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashFinisherFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon57.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade#r_5_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon58.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/FinisherTransferenceUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/FinisherTransferenceUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/FinisherTransferenceUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/FinisherTransferenceUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/FinisherTransferenceUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/FinisherTransferenceUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon35.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitDamageUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitDamageUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitDamageUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitDamageUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitDamageUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitDamageUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon56.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitWaveUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitWaveUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitWaveUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitWaveUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitWaveUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitWaveUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon48.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionExecutionUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionExecutionUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionExecutionUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionExecutionUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionExecutionUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionExecutionUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon28.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionStretchUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionStretchUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionStretchUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionStretchUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionStretchUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionStretchUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon07.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/SlamComboFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/SlamComboFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/SlamComboFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/SlamComboFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/SlamComboFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/SlamComboFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon26.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/HungeringBlades.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/UnendingMelee.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/FlowingStrike.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/AstralCut.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/NaramonUltimate.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeComboFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeComboFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeComboFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeComboFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeComboFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeComboFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon59.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeXpFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeXpFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeXpFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeXpFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeXpFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeXpFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon60.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade#r_5_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon63.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Stats/MoveSpeedFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Tactic/Stats/MoveSpeedFocusUpgrade#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/MoveSpeedFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/MoveSpeedFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/MoveSpeedFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Tactic/Stats/MoveSpeedFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon64.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/BlastBulletAttractorFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/BlastBulletAttractorFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/BlastBulletAttractorFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/BlastBulletAttractorFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/BlastBulletAttractorFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/BlastBulletAttractorFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon61.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/BlastDamagePickupFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/BlastDamagePickupFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/BlastDamagePickupFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/BlastDamagePickupFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/BlastDamagePickupFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/BlastDamagePickupFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon62.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/ClearStaticOnKillFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/ClearStaticOnKillFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/ClearStaticOnKillFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/ClearStaticOnKillFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/ClearStaticOnKillFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/ClearStaticOnKillFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon103.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/CloakAllyCloakFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/CloakAllyCloakFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/CloakAllyCloakFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/CloakAllyCloakFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/CloakAllyCloakFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/CloakAllyCloakFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon65.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/CloakReduceDamageFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/CloakReduceDamageFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/CloakReduceDamageFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/CloakReduceDamageFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/CloakReduceDamageFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/CloakReduceDamageFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon66.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade#r_5_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon67.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/DashReduceDamageFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/DashReduceDamageFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceDamageFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceDamageFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceDamageFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/DashReduceDamageFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon69.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/InvulnerableReturnFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/InvulnerableReturnFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/InvulnerableReturnFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/InvulnerableReturnFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/InvulnerableReturnFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/InvulnerableReturnFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon68.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/KnockdownImmunityFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/KnockdownImmunityFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/KnockdownImmunityFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/KnockdownImmunityFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/KnockdownImmunityFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/KnockdownImmunityFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon27.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/MagneticExtensionUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/MagneticExtensionUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/MagneticExtensionUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/MagneticExtensionUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/MagneticExtensionUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/MagneticExtensionUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon112.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/MagneticFieldFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/MagneticFieldFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/MagneticFieldFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/MagneticFieldFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/MagneticFieldFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/MagneticFieldFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon111.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/SunderingDissipationUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/SunderingDissipationUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/SunderingDissipationUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/SunderingDissipationUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/SunderingDissipationUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/SunderingDissipationUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon40.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Active/UnairuWispFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Active/UnairuWispFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/UnairuWispFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/UnairuWispFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/UnairuWispFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Active/UnairuWispFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon62.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Residual/ArmourBuffFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Residual/ArmourBuffFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ArmourBuffFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ArmourBuffFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ArmourBuffFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ArmourBuffFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon70.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade#r_5_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon73.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceDamageBuffFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceDamageBuffFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceDamageBuffFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceDamageBuffFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceDamageBuffFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceDamageBuffFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon51.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon24.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Stats/ArmourIncreaseFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Stats/ArmourIncreaseFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Stats/ArmourIncreaseFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Stats/ArmourIncreaseFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Stats/ArmourIncreaseFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Stats/ArmourIncreaseFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon76.jpg!00_egqjd9BKVkXXIcePBPjZVQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Stats/BlastRadiusFocusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Stats/BlastRadiusFocusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Stats/BlastRadiusFocusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Stats/BlastRadiusFocusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Stats/BlastRadiusFocusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Stats/BlastRadiusFocusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon76.jpg!00_egqjd9BKVkXXIcePBPjZVQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/Sundering.jpg!00_UHJr+O+de55-yY51Y64dnA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/Tempering.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/GreatQuake.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/SeismicImpact.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateUpgrade",
+            "name": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateUpgrade#name",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateUpgrade#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateUpgrade#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateUpgrade#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateUpgrade#r_3_0"
+                ]
+            ],
+            "icon": "/Lotus/Interface/Icons/FocusNodeIcons/UltimateNodes/UnairuUltimate.jpg!00_OHNQI7Egqr9tiXP97f+vTA"
+        }
+    ]
+}

@@ -1,3 +1,11 @@
+// Application technical features
+
+// Listen to the change itemType event for the URL (e.g: #Abilities)
+window.addEventListener("hashchange", () => {
+  const category = window.location.hash.replace("#", "") || "Suits";
+  loadCategory(category);
+});
+
 const PublicExportURL = "https://content.warframe.com/PublicExport";
 const ManifestURL = "./data/ExportManifest.json";
 const IndexURL = "./data/warframe-manifest-index.json";

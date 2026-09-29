@@ -1,0 +1,2481 @@
+{
+    "Avionics": [
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric13.png!00_6SXZr2WDYhitIuClqWKrUg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric11.png!00_gjYcWEVs2AHD3CL-9DmHHQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric19.png!00_I27txHM7wPpIkzCstd8-ig"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric02.png!00_0vs9t8g2jrAEzx5upaYwxQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard#r_6_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric04.png!00_uEB4Fu3w+j+Nxtn4ZmcwNw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric07.png!00_YV-fHOnro9vrT0m6LEYU5A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric12.png!00_JdC5dtMAJ77zkcIdoLRMUw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric17.png!00_SUxua5do5zPIyzlJ1eou4w"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric14.png!00_Dm2U5sAhNn9RDS+HCKfSTw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseChemReductionAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseChemReductionAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/ChemReductionAura.png!00_WMoup3ikIH7Vlj0jCMor0g"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseFrostReductionAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseFrostReductionAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 0,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/FrostReductionAura.png!00_f0cMGOenLLG8+zo4-S+VWg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseHealthBoost",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseHealthBoost#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/HealthBoost.png!00_rw4v-wSaB3ImZdXBnephsg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseIncendiaryReductionAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseIncendiaryReductionAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/IncendiaryReductionAura.png!00_PVrFo9gMovWjVcXEdcWieA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseIonicReductionAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseIonicReductionAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/IonicReductionAura.png!00_a5pRQje5GpfcEMYS5ACNgQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseMaxArmor",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseMaxArmor#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/MaxArmor.png!00_RHpry8m6Xkx6f8qWfm9fKA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseMaxShield",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseMaxShield#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/MaxShield.png!00_KG0p6-05gG6CnEDaX+WJcA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseShieldRecharge",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseShieldRecharge#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/ShieldRecharge.png!00_X6lYPKBKrZulO8Elh7FCfQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseShieldRedirectionMod",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseShieldRedirectionMod#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 0,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/FrostReductionAura.png!00_f0cMGOenLLG8+zo4-S+VWg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_0_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_0_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_0_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_0_3"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_1_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_1_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_1_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_1_3"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_2_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_2_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_2_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_2_3"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_3_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_3_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_3_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_3_3"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_4_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_4_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_4_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_4_3"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_5_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_5_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_5_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_5_3"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_6_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_6_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_6_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_6_3"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_7_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_7_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_7_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_7_3"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_8_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_8_1",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_8_2",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix#r_8_3"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModHullWeave.png!00_pylJ18NaAZ7NfWfH-BHvag"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/DefensiveFire.png!00_A258O2GDPTDZF0+H6QhvEw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RechargeFire.png!00_7oaC9fcNdEE5bbS9Of9z0A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_0_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_0_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_1_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_1_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_2_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_2_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_3_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_3_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_4_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_4_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_5_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_5_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_6_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_6_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_7_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_7_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_8_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix#r_8_1"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModBulkhead.png!00_XxQIZ+FO3iUdQcOMwBHnow"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseCorpusFactionDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseCorpusFactionDamage#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModSentientScalpel.png!00_8V+HhDErbvq4GGtcZbNoZg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseDesperateMeasures",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseDesperateMeasures#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/DesperateMeasures.png!00_mrs+i1qqg4muIV1Rsp8pNw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGrineerFactionDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGrineerFactionDamage#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModSentientScalpel.png!00_8V+HhDErbvq4GGtcZbNoZg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponCritChance",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponCritChance#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/WeaponCritChance.png!00_s1p2ZKQAdwJLaWlos+SPMA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponCritDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponCritDamage#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/WeaponCritDamage.png!00_sr4ZKZojcePljx5QiYO6Pw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponDamage#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/GunnerWeaponDamage.png!00_AYhHwZXn9gPbqF4fNVj4cQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponHeat",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponHeat#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/GunnerWeaponHeat.png!00_uG-ETZXh3mpl8oqqhr5ekw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseMaxOrdnanceMunitions",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseMaxOrdnanceMunitions#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/SuperWeaponDamage.png!00_Tr-pnmfejUOeJPku1uz8ew"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseOrdnanceDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseOrdnanceDamage#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/OrdnanceDamage.png!00_FfuiLuNWE6fvJuw6e-9EvQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseProtectiveShots",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseProtectiveShots#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/GunnerWeaponDamage.png!00_AYhHwZXn9gPbqF4fNVj4cQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseReduceArmorWeaponDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseReduceArmorWeaponDamage#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/GunnerWeaponDamage.png!00_AYhHwZXn9gPbqF4fNVj4cQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseReducedOrdnanceReload",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseReducedOrdnanceReload#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/ReducedOrdnanceReload.png!00_TwTiJPDRO4Zn6lkKv2SMsA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseSuperWeaponDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseSuperWeaponDamage#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/SuperWeaponDamage.png!00_Tr-pnmfejUOeJPku1uz8ew"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseWeaponFluxBoost",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseWeaponFluxBoost#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/SuperWeaponDamage.png!00_Tr-pnmfejUOeJPku1uz8ew"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/OrdnanceShieldPenetration.png!00_nCDpw+mpgh+BRNiKJmTajQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/TurretShieldPenetration.png!00_pCTwVf7RY2Zt3oTAJv0R3A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 10,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/KillStreak.png!00_sRK872lNMMbM-IA7Npnbyw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModQuicklock.png!00_4u7Mcb-1vVEZJhooDo3G2A"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModOrdnanceCheapShot.png!00_EDyzG+LYKaL1aOfPTVe0IA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 3,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions#r_6_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModOverloader.png!00_ejhU8WdhcqK4XRmQwHzwvg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModWarhead.png!00_DrYiSTOZXyzfQypFKR0zmA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModOrdnanceVelocity.png!00_vy0+L1ZzXADr71AaA2-FZA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/ProtectiveShots.png!00_u5DZE-5cUZbK1gZld3lUKw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModRipload.png!00_RIRc1nqyh8TyZyJYVcSfwQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/DmgVsCorpus.png!00_6zmF3mRQwwZrJdTRlI513w"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/DmgVsGrineer.png!00_YL7v-FkxUlQLXBpi7HZEDA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModPredator.png!00_2ylpYlGaDSxTGnPBJNOuEw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 10,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModSectionDensity.png!00_yDzNCQIRj4weDJHfeVjl1w"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 10,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModHyperstrike.png!00_NyjedW+aM7TGUbkCmOLhBA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModLastStand.png!00_awnXNYnDrs7AUznQ+BeURw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModSentientScalpel.png!00_8V+HhDErbvq4GGtcZbNoZg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_0_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_0_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_1_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_1_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_2_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_2_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_3_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_3_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_4_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_4_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_5_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_5_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_6_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_6_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_7_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_7_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_8_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_8_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_9_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_9_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_10_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_10_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_11_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_11_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_12_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_12_1"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_13_0",
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed#r_13_1"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModTurretVelocity.png!00_Hr3jspuiPvXGfMlp7ozpVg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModArtilleryCheapShot.png!00_agNA7eHGUaynoex4O818Pw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModForwardArtillery.png!00_gyclai1by5nnpE3LbPYONg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingArmorAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingArmorAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/ArchwingArmorAura.png!00_2MyZKCgx2xnuR+mWA89qJw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingDamageAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingDamageAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/ArchwingDamageAura.png!00_D-xvmGt9t-hCtrguehD-Hg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingShieldAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingShieldAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/ArchwingShieldAura.png!00_DfdcxkMAXg8R3c1-8JGQNA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingSpeedAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingSpeedAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/ArchwingSpeedAura.png!00_V0EQ2ZIbbzpmGdnAy74SCA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseBoostSpeed",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseBoostSpeed#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/BoostSpeed.png!00_Zx+7Nt9ke7O3NIl5i0WITQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseCrewshipSpeedDamageAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseCrewshipSpeedDamageAura#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/ArchwingSpeedAura.png!00_V0EQ2ZIbbzpmGdnAy74SCA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseDodge",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseDodge#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/Speed.png!00_Zx+7Nt9ke7O3NIl5i0WITQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseEmpPowerCap",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseEmpPowerCap#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/EmpPowerCap.png!00_Bjuo24ANdvAazqCVVngdLg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseShieldBoost",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseShieldBoost#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/Speed.png!00_Zx+7Nt9ke7O3NIl5i0WITQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseSpeed",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseSpeed#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "card": "/Lotus/Interface/Icons/RailjackSystemMods/Speed.png!00_Zx+7Nt9ke7O3NIl5i0WITQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#name",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/ArchwingAgressor.png!00_3ELi--N-LGhdWqsSJ3theA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModRevoReducer.png!00_SDPLGade9XXn3UeJI3AvxA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModIonBurn.png!00_1YwtgCwRE12PLRLRwb0meg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModCruisingSpeed.png!00_Y4ZoW---7V0Zric2FB9-lQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#name",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModHardenedCasing.png!00_6Eywm1g+xQSTOpLgU3X8eA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#name",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModConicNozzle.png!00_xs6eZDimEDkLJfWlPAOCcA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric03.png!00_xans0k8UZZJtBjDmSmTXWw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 10,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_8_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_9_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_10_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_11_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_12_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard#r_13_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric08.png!00_JGzaVDVIh3LLUJxpzzWnZA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/BattleForge.png!00_-bokD31ALLyTU8fGZ0cvtQ"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric05.png!00_cjv2CXu2FidK4tyo5RqhbA"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric09.png!00_4fPY2THwKRYsZPQQeO7INw"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric01.png!00_ZSJjbuPneXHvT9y3mz9A9g"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric16.png!00_KKOO7aws8jODvUzD0azQHg"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric10.png!00_0TsvV3KNPMEo8sjrySC+0w"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric06.png!00_JS556fDQCAomRXEGLQqW9g"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak",
+            "name": "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#name",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "levelStats": [
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_0_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_1_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_2_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_3_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_4_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_5_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_6_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_7_0"
+                ],
+                [
+                    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak#r_8_0"
+                ]
+            ],
+            "card": "/Lotus/Interface/Cards/Images/Railjack/RailjackModGeneric18.png!00_2Ae0HCnTULJHi0Jns4vCSQ"
+        }
+    ]
+}
