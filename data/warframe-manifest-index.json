@@ -540,5 +540,27 @@
                 "/Lotus/Upgrades/Skins/Promo/Seasonal/DogDays2025BadgeItem"
             ]
         }
+    },
+    "Operator & Drifters": {
+        "Beards": {
+            "paths": [
+                "/Lotus/Upgrades/Skins/Operator/Beards/"
+            ]
+        },
+        "Heads": {
+            "paths": [
+                "/Lotus/Upgrades/Skins/Operator/Heads/"
+            ]
+        },
+        "Hair": {
+            "paths": [
+                "/Lotus/Upgrades/Skins/Operator/Hair/"
+            ]
+        },
+        "Facial Markings": {
+            "paths": [
+                "/Lotus/Upgrades/Skins/Operator/FacialMarkings/"
+            ]
+        }
     }
 }
